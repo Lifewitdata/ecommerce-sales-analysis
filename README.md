@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/127_SQL_checks-passing-55A868?style=for-the-badge" alt="verified"/>
 </p>
 
-> **₹3.59 crore in revenue across 2,000 orders** — and a discount policy quietly burning lakhs. This project traces every rupee: which categories earn, which discounts destroy margin, and which customers actually matter. The same findings are produced **twice** — once in pandas in the notebook, once in MySQL in `sql/` — and `sql/verify_sql.py` asserts the two agree.
+> **₹3.59 crore in revenue across 2,000 orders** — and a discount policy quietly burning lakhs. This project traces every rupee: which categories earn, which discounts destroy margin, and which customers actually matter. The same findings are produced **twice** — once in pandas in the notebook, once in MySQL in `sql/` — and `sql/verify_sql.py` asserts the two agree. Explore the results in the **live Tableau dashboard** or the **Excel reporting workbook** below.
+
+[Open Tableau Public dashboard](https://public.tableau.com/app/profile/isfaque.ansari5273/viz/Ecommerce_Sales_Executive_Overview/E-commerceSales-ExecutiveOverview) · [Tableau workbook](tableau/Ecommerce_Sales_Executive_Overview.twbx) · [Excel workbook](excel/Ecommerce_Sales_Excel_Report.xlsx)
 
 ---
 
@@ -25,6 +27,7 @@
 | Metric | Value |
 |---|---|
 | Orders analyzed | 2,000 (Jan 2024 – Jun 2025) |
+| Unique customers | **573** |
 | Total revenue | **₹3,59,28,969** |
 | Total profit / overall margin | ₹51,82,912 / **14.43%** |
 | Money lost to deep discounting | **−₹2.49 lakh** across 195 orders |
@@ -32,6 +35,31 @@
 | H1 2025 revenue vs H1 2024 | **−18.41%** |
 
 ![monthly trend](visuals/01_monthly_trend.png)
+
+## Tableau dashboard
+
+**[View the interactive executive overview on Tableau Public](https://public.tableau.com/app/profile/isfaque.ansari5273/viz/Ecommerce_Sales_Executive_Overview/E-commerceSales-ExecutiveOverview)** — no local Tableau installation required.
+
+The dashboard includes a KPI scorecard, monthly revenue and profit, category revenue versus margin, discount versus profit, regional performance, payment mix, and the top 10 products. Filter by **region** or **category**, or click a category bar to explore the order mix.
+
+[Download the packaged Tableau workbook](tableau/Ecommerce_Sales_Executive_Overview.twbx) to inspect the seven worksheets and dashboard. The `.twbx` includes its Hyper data extract.
+
+## Excel workbook
+
+**[Download Ecommerce_Sales_Excel_Report.xlsx](excel/Ecommerce_Sales_Excel_Report.xlsx)**, then open it in Microsoft Excel. Start with `KPI_Dashboard` for the sales, profit, margin, order and customer totals.
+
+| Sheet | Contents |
+|---|---|
+| `KPI_Dashboard` | Formula-based KPI scorecard and monthly sales summary |
+| `Monthly_Trend` | Monthly orders, sales, profit and margin |
+| `Category_Region` | Category and regional performance summaries |
+| `Discount_Payment` | Discount-bucket and payment-method summaries |
+| `Pivot_Category` | Formula-based category-by-region summary with a region selector; not a native PivotTable or slicer |
+| `Quality_Checks` | Row-count, duplicate, blank-value and financial-total checks |
+| `Clean_Data` | 2,000 orders with derived month, discount bucket, margin and loss-making flags |
+| `Raw_Data` | The original 13 source columns for all 2,000 orders |
+
+The raw and clean source columns match the committed `ecommerce_sales.csv`. The headline sales and profit totals are rounded to the nearest rupee; margin is profit divided by sales.
 
 ## ⚠️ Finding #1 — the margin-mix trap
 
@@ -96,6 +124,10 @@ flowchart LR
 │   ├── load_data.sql               # LOAD DATA LOCAL INFILE + row-count sanity check
 │   ├── analysis_queries.sql        # 13 MySQL queries covering the 12 analysis sections
 │   └── verify_sql.py               # proves every query reproduces the notebook
+├── tableau/
+│   └── Ecommerce_Sales_Executive_Overview.twbx  # packaged dashboard + embedded extract
+├── excel/
+│   └── Ecommerce_Sales_Excel_Report.xlsx       # 8-sheet reporting workbook
 └── visuals/                        # 7 charts (shown above)
 ```
 
