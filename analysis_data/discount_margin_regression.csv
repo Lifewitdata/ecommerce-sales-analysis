@@ -1,0 +1,2 @@
+term,coefficient,ci_low,ci_high,p_value,margin_change_10pp_pp,change_ci_low_pp,change_ci_high_pp,orders,customer_clusters
+discount,-1.1457565875324827,-1.1574571474394777,-1.1340560276254876,0.0,-11.457565875324827,-11.574571474394777,-11.340560276254877,2000,573

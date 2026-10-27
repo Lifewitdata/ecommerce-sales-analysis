@@ -1,0 +1,58 @@
+customer_id,last_order,frequency,monetary,profit,recency_days,R,F,M,rfm_score,target_top_10pct,recommended_action
+CUST-00544,2025-05-31,6,370482.43,60565.78,31,5,5,5,15,True,Replenishment reminder; max 10%
+CUST-00141,2025-06-28,7,320127.9,43257.3,3,5,5,5,15,True,VIP access; no blanket discount
+CUST-00175,2025-06-23,7,297987.98,51465.049999999996,8,5,5,5,15,True,VIP access; no blanket discount
+CUST-00033,2025-06-08,6,262634.41,24222.29,23,5,5,5,15,True,VIP access; no blanket discount
+CUST-00450,2025-06-30,7,233510.91999999998,13064.58,1,5,5,5,15,True,VIP access; no blanket discount
+CUST-00320,2025-05-31,6,221504.31,45899.29,31,5,5,5,15,True,Replenishment reminder; max 10%
+CUST-00488,2025-06-18,6,215533.17,18567.7,13,5,5,5,15,True,VIP access; no blanket discount
+CUST-00117,2025-06-28,5,198980.55,32218.46,3,5,5,5,15,True,VIP access; no blanket discount
+CUST-00152,2025-06-24,5,162143.78,10526.3,7,5,5,5,15,True,VIP access; no blanket discount
+CUST-00130,2025-06-10,6,153325.74000000002,15994.41,21,5,5,5,15,True,VIP access; no blanket discount
+CUST-00246,2025-06-24,6,148188.25,7720.25,7,5,5,5,15,True,VIP access; no blanket discount
+CUST-00042,2025-06-20,6,135242.41999999998,31417.550000000003,11,5,5,5,15,True,VIP access; no blanket discount
+CUST-00420,2025-06-07,9,129708.88,13569.25,24,5,5,5,15,True,VIP access; no blanket discount
+CUST-00218,2025-06-25,5,111817.76000000001,24863.25,6,5,5,5,15,True,VIP access; no blanket discount
+CUST-00549,2025-06-19,6,97583.31,8332.369999999999,12,5,5,5,15,True,VIP access; no blanket discount
+CUST-00586,2025-06-07,7,96150.99,19975.59,24,5,5,5,15,True,VIP access; no blanket discount
+CUST-00027,2025-05-06,9,575567.2000000001,92406.82,56,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00422,2025-06-16,4,290319.01999999996,24476.24,15,5,4,5,14,True,VIP access; no blanket discount
+CUST-00005,2025-06-27,4,289803.91000000003,55880.32,4,5,4,5,14,True,VIP access; no blanket discount
+CUST-00446,2025-04-12,7,288867.24,-6753.210000000002,80,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00412,2025-05-15,8,273790.15,35698.45,47,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00118,2025-05-13,5,262189.62,5734.49,49,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00524,2025-05-31,4,196342.38,33277.23,31,5,4,5,14,True,Replenishment reminder; max 10%
+CUST-00241,2025-05-15,6,180609.56,18213.14,47,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00091,2025-06-17,4,170658.9,15551.37,14,5,4,5,14,True,VIP access; no blanket discount
+CUST-00382,2025-06-16,4,154230.93,6765.86,15,5,4,5,14,True,VIP access; no blanket discount
+CUST-00468,2025-04-27,6,149269.19,-3393.29,65,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00411,2025-04-30,5,147663.02,9448.85,62,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00121,2025-04-29,5,142607.96000000002,15815.79,63,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00202,2025-04-09,6,139193.76,36782.43,83,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00387,2025-04-20,6,129502.41,-13570.369999999999,72,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00099,2025-04-19,7,129188.79,29536.41,73,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00087,2025-05-16,6,127306.59999999999,26590.9,46,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00360,2025-04-08,6,110470.25,8445.57,84,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00484,2025-06-08,4,109155.57999999999,18919.620000000003,23,5,4,5,14,True,VIP access; no blanket discount
+CUST-00193,2025-04-18,6,104472.2,15200.36,74,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00280,2025-05-13,5,104002.62999999999,-353.4500000000003,49,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00283,2025-04-29,5,103434.98999999999,17254.64,63,4,5,5,14,True,Replenishment reminder; max 10%
+CUST-00538,2025-06-09,4,100436.84000000001,21707.08,22,5,4,5,14,True,VIP access; no blanket discount
+CUST-00174,2025-05-27,4,98297.06999999999,13640.65,35,5,4,5,14,True,Replenishment reminder; max 10%
+CUST-00043,2025-06-26,5,88258.26,19133.89,5,5,5,4,14,True,VIP access; no blanket discount
+CUST-00142,2025-06-12,6,86698.42,16507.89,19,5,5,4,14,True,VIP access; no blanket discount
+CUST-00311,2025-05-30,6,82934.56999999999,11029.28,32,5,5,4,14,True,Replenishment reminder; max 10%
+CUST-00518,2025-06-27,6,77343.29,14734.06,4,5,5,4,14,True,VIP access; no blanket discount
+CUST-00059,2025-05-27,5,74035.45,23546.46,35,5,5,4,14,True,Replenishment reminder; max 10%
+CUST-00157,2025-06-03,5,72788.75,6805.2699999999995,28,5,5,4,14,True,VIP access; no blanket discount
+CUST-00245,2025-06-19,9,69716.16,19756.96,12,5,5,4,14,True,VIP access; no blanket discount
+CUST-00247,2025-06-01,7,67018.12,13195.09,30,5,5,4,14,True,VIP access; no blanket discount
+CUST-00419,2025-06-01,5,66793.35,16931.96,30,5,5,4,14,True,VIP access; no blanket discount
+CUST-00496,2025-06-21,5,64480.3,20667.03,10,5,5,4,14,True,VIP access; no blanket discount
+CUST-00122,2025-06-06,6,56136.049999999996,18421.76,25,5,5,4,14,True,VIP access; no blanket discount
+CUST-00277,2025-06-18,5,49088.39,9081.2,13,5,5,4,14,True,VIP access; no blanket discount
+CUST-00392,2025-06-29,5,47906.38,11563.05,2,5,5,4,14,True,VIP access; no blanket discount
+CUST-00297,2025-06-30,6,46915.66,8272.869999999999,1,5,5,4,14,True,VIP access; no blanket discount
+CUST-00369,2025-03-04,8,590014.52,78028.31,119,3,5,5,13,True,Win-back test; max 15%
+CUST-00390,2025-05-22,4,325499.8,10688.76,40,4,4,5,13,True,Replenishment reminder; max 10%
+CUST-00457,2025-03-16,6,225651.5,25812.38,107,3,5,5,13,True,Win-back test; max 15%

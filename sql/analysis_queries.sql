@@ -226,7 +226,24 @@ FROM orders
 WHERE discount > 0.20;
 
 
--- Q11  Like-for-like H1 2024 vs H1 2025 (not in the notebook)
+-- Q10b Fixed-volume 15% cap for the same 195 orders; costs held constant.
+WITH repriced AS (
+  SELECT order_id, sales, profit,
+         ROUND(quantity * CAST(unit_price AS DECIMAL(18, 2)) * CAST(0.85 AS DECIMAL(3, 2)), 2)
+           AS capped_sales
+  FROM orders
+  WHERE discount > 0.20
+)
+SELECT COUNT(*) AS orders,
+       ROUND(SUM(sales), 2) AS original_sales,
+       ROUND(SUM(profit), 2) AS original_profit,
+       ROUND(SUM(capped_sales), 2) AS capped_sales,
+       ROUND(SUM(capped_sales - (sales - profit)), 2) AS capped_profit,
+       ROUND(SUM(capped_sales - sales), 2) AS profit_difference
+FROM repriced;
+
+
+-- Q11  Like-for-like H1 2024 vs H1 2025 (notebook 4.8)
 --      Revenue is DOWN 18.41% year over year (11,981,717.18 -> 9,775,395.76)
 --      and AOV fell 19,140.12 -> 16,484.65, while margin improved 13.85% ->
 --      15.47%. The business is shrinking and getting healthier at the same

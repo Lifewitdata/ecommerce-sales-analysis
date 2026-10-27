@@ -1,0 +1,2001 @@
+order_id,category,returned_synthetic,is_synthetic
+ORD-101070,Beauty,False,True
+ORD-101945,Electronics,False,True
+ORD-100664,Electronics,False,True
+ORD-101555,Home & Kitchen,True,True
+ORD-101584,Beauty,False,True
+ORD-101499,Fashion,False,True
+ORD-101151,Sports,False,True
+ORD-101166,Electronics,False,True
+ORD-101640,Sports,False,True
+ORD-101882,Sports,False,True
+ORD-100797,Beauty,False,True
+ORD-100938,Fashion,False,True
+ORD-101263,Fashion,False,True
+ORD-101631,Electronics,False,True
+ORD-101717,Sports,False,True
+ORD-101901,Sports,False,True
+ORD-100355,Electronics,False,True
+ORD-101920,Home & Kitchen,False,True
+ORD-100590,Beauty,False,True
+ORD-100603,Beauty,False,True
+ORD-100697,Electronics,False,True
+ORD-100850,Electronics,True,True
+ORD-100891,Beauty,False,True
+ORD-101138,Home & Kitchen,False,True
+ORD-101290,Fashion,False,True
+ORD-101421,Sports,False,True
+ORD-101454,Beauty,False,True
+ORD-101959,Home & Kitchen,False,True
+ORD-100262,Fashion,False,True
+ORD-101985,Fashion,False,True
+ORD-101987,Electronics,False,True
+ORD-100600,Electronics,False,True
+ORD-101471,Fashion,True,True
+ORD-101472,Fashion,False,True
+ORD-100153,Sports,False,True
+ORD-100308,Sports,False,True
+ORD-100221,Fashion,False,True
+ORD-100617,Beauty,False,True
+ORD-100828,Beauty,False,True
+ORD-100901,Fashion,False,True
+ORD-101386,Home & Kitchen,False,True
+ORD-101570,Sports,False,True
+ORD-100638,Sports,False,True
+ORD-100747,Electronics,False,True
+ORD-101171,Fashion,False,True
+ORD-101637,Electronics,False,True
+ORD-100167,Electronics,True,True
+ORD-101009,Fashion,False,True
+ORD-101245,Sports,False,True
+ORD-101879,Home & Kitchen,False,True
+ORD-100161,Fashion,False,True
+ORD-100375,Beauty,False,True
+ORD-100432,Beauty,False,True
+ORD-100453,Beauty,False,True
+ORD-100633,Sports,False,True
+ORD-100286,Sports,False,True
+ORD-101425,Fashion,False,True
+ORD-101445,Beauty,False,True
+ORD-101484,Fashion,False,True
+ORD-101588,Home & Kitchen,False,True
+ORD-101593,Electronics,False,True
+ORD-100275,Fashion,False,True
+ORD-101031,Electronics,True,True
+ORD-101189,Beauty,False,True
+ORD-100783,Fashion,False,True
+ORD-100321,Fashion,False,True
+ORD-100946,Fashion,False,True
+ORD-101048,Sports,False,True
+ORD-101113,Fashion,False,True
+ORD-101892,Home & Kitchen,False,True
+ORD-100385,Fashion,False,True
+ORD-100476,Fashion,False,True
+ORD-100620,Sports,False,True
+ORD-101951,Fashion,False,True
+ORD-100943,Home & Kitchen,False,True
+ORD-101034,Home & Kitchen,False,True
+ORD-101090,Home & Kitchen,False,True
+ORD-100025,Home & Kitchen,False,True
+ORD-101597,Home & Kitchen,False,True
+ORD-100083,Fashion,False,True
+ORD-100847,Beauty,False,True
+ORD-100982,Sports,False,True
+ORD-101266,Beauty,False,True
+ORD-100438,Beauty,False,True
+ORD-100954,Home & Kitchen,False,True
+ORD-101007,Fashion,False,True
+ORD-101633,Sports,False,True
+ORD-101915,Sports,False,True
+ORD-100532,Sports,False,True
+ORD-101275,Sports,False,True
+ORD-101963,Fashion,False,True
+ORD-100960,Fashion,False,True
+ORD-100092,Home & Kitchen,False,True
+ORD-100132,Electronics,False,True
+ORD-100246,Fashion,False,True
+ORD-100413,Beauty,False,True
+ORD-101084,Sports,False,True
+ORD-101514,Home & Kitchen,False,True
+ORD-101672,Sports,False,True
+ORD-101958,Beauty,False,True
+ORD-100242,Beauty,False,True
+ORD-100731,Fashion,False,True
+ORD-101452,Home & Kitchen,False,True
+ORD-101646,Beauty,False,True
+ORD-101144,Fashion,False,True
+ORD-100676,Electronics,False,True
+ORD-101910,Home & Kitchen,False,True
+ORD-101531,Electronics,False,True
+ORD-101537,Home & Kitchen,False,True
+ORD-101088,Sports,False,True
+ORD-101098,Sports,True,True
+ORD-101581,Fashion,False,True
+ORD-101726,Fashion,False,True
+ORD-100538,Electronics,False,True
+ORD-101283,Home & Kitchen,False,True
+ORD-100560,Electronics,False,True
+ORD-100585,Fashion,True,True
+ORD-100655,Electronics,False,True
+ORD-101287,Electronics,False,True
+ORD-101326,Fashion,False,True
+ORD-101736,Sports,False,True
+ORD-101739,Sports,False,True
+ORD-100497,Electronics,False,True
+ORD-101089,Sports,False,True
+ORD-101460,Electronics,False,True
+ORD-100023,Home & Kitchen,False,True
+ORD-100678,Fashion,False,True
+ORD-101585,Sports,True,True
+ORD-100534,Electronics,False,True
+ORD-100961,Sports,False,True
+ORD-101216,Sports,False,True
+ORD-101474,Fashion,False,True
+ORD-101992,Home & Kitchen,False,True
+ORD-101221,Beauty,False,True
+ORD-101379,Fashion,True,True
+ORD-101517,Beauty,False,True
+ORD-101981,Beauty,False,True
+ORD-100207,Fashion,False,True
+ORD-100261,Fashion,False,True
+ORD-100398,Beauty,False,True
+ORD-101367,Home & Kitchen,False,True
+ORD-100420,Beauty,False,True
+ORD-101305,Home & Kitchen,False,True
+ORD-101317,Beauty,False,True
+ORD-101580,Electronics,False,True
+ORD-101586,Home & Kitchen,False,True
+ORD-100093,Fashion,True,True
+ORD-100771,Electronics,True,True
+ORD-101519,Beauty,False,True
+ORD-101695,Sports,False,True
+ORD-101814,Electronics,True,True
+ORD-101923,Fashion,False,True
+ORD-100993,Home & Kitchen,False,True
+ORD-100284,Sports,False,True
+ORD-101281,Beauty,False,True
+ORD-100817,Electronics,False,True
+ORD-101006,Sports,True,True
+ORD-101668,Electronics,False,True
+ORD-100162,Electronics,False,True
+ORD-100258,Beauty,False,True
+ORD-100716,Electronics,True,True
+ORD-101473,Fashion,False,True
+ORD-100018,Home & Kitchen,False,True
+ORD-100623,Electronics,False,True
+ORD-100814,Electronics,False,True
+ORD-101136,Electronics,False,True
+ORD-100259,Electronics,False,True
+ORD-101875,Electronics,False,True
+ORD-101389,Home & Kitchen,False,True
+ORD-101969,Fashion,False,True
+ORD-101049,Home & Kitchen,True,True
+ORD-100798,Sports,True,True
+ORD-101041,Fashion,False,True
+ORD-101833,Beauty,False,True
+ORD-101922,Electronics,False,True
+ORD-100103,Sports,False,True
+ORD-100882,Beauty,False,True
+ORD-100558,Electronics,False,True
+ORD-101201,Fashion,True,True
+ORD-100609,Home & Kitchen,False,True
+ORD-100611,Fashion,False,True
+ORD-101091,Sports,False,True
+ORD-100217,Electronics,False,True
+ORD-100396,Sports,False,True
+ORD-100583,Beauty,False,True
+ORD-101003,Beauty,False,True
+ORD-101370,Electronics,True,True
+ORD-101405,Electronics,False,True
+ORD-101697,Electronics,False,True
+ORD-100472,Electronics,False,True
+ORD-101345,Fashion,False,True
+ORD-101443,Beauty,False,True
+ORD-100117,Beauty,False,True
+ORD-100444,Sports,False,True
+ORD-100601,Sports,True,True
+ORD-101095,Sports,False,True
+ORD-101155,Home & Kitchen,False,True
+ORD-101569,Electronics,False,True
+ORD-101756,Home & Kitchen,False,True
+ORD-100269,Home & Kitchen,False,True
+ORD-100305,Electronics,False,True
+ORD-100812,Beauty,False,True
+ORD-101719,Sports,False,True
+ORD-100096,Electronics,False,True
+ORD-100382,Fashion,False,True
+ORD-101540,Sports,False,True
+ORD-100215,Beauty,False,True
+ORD-100240,Home & Kitchen,False,True
+ORD-100306,Home & Kitchen,False,True
+ORD-100739,Beauty,False,True
+ORD-100808,Fashion,False,True
+ORD-101361,Electronics,False,True
+ORD-100181,Beauty,False,True
+ORD-100464,Sports,False,True
+ORD-100945,Electronics,False,True
+ORD-101020,Electronics,False,True
+ORD-101191,Beauty,False,True
+ORD-101409,Sports,False,True
+ORD-101480,Electronics,False,True
+ORD-100298,Fashion,False,True
+ORD-100679,Fashion,False,True
+ORD-100707,Home & Kitchen,False,True
+ORD-100766,Home & Kitchen,False,True
+ORD-101364,Electronics,False,True
+ORD-101503,Beauty,False,True
+ORD-101666,Home & Kitchen,False,True
+ORD-101857,Sports,False,True
+ORD-100987,Fashion,False,True
+ORD-101038,Electronics,False,True
+ORD-101042,Electronics,True,True
+ORD-100819,Beauty,True,True
+ORD-100860,Electronics,False,True
+ORD-101611,Beauty,False,True
+ORD-100832,Home & Kitchen,False,True
+ORD-100867,Fashion,False,True
+ORD-101763,Electronics,True,True
+ORD-100496,Electronics,False,True
+ORD-100908,Electronics,False,True
+ORD-101164,Home & Kitchen,False,True
+ORD-101549,Home & Kitchen,False,True
+ORD-101730,Sports,False,True
+ORD-100370,Electronics,False,True
+ORD-100903,Beauty,False,True
+ORD-101040,Fashion,False,True
+ORD-100458,Fashion,False,True
+ORD-100471,Sports,False,True
+ORD-101604,Beauty,False,True
+ORD-101638,Fashion,False,True
+ORD-101979,Home & Kitchen,False,True
+ORD-100041,Home & Kitchen,False,True
+ORD-100155,Home & Kitchen,False,True
+ORD-101194,Electronics,False,True
+ORD-101702,Home & Kitchen,False,True
+ORD-101846,Beauty,False,True
+ORD-101285,Beauty,False,True
+ORD-100864,Electronics,False,True
+ORD-101818,Beauty,False,True
+ORD-101479,Fashion,True,True
+ORD-100384,Beauty,True,True
+ORD-101974,Fashion,False,True
+ORD-100486,Sports,False,True
+ORD-101371,Beauty,False,True
+ORD-101431,Fashion,True,True
+ORD-100417,Fashion,False,True
+ORD-100485,Beauty,False,True
+ORD-100736,Fashion,False,True
+ORD-101262,Sports,False,True
+ORD-101681,Sports,False,True
+ORD-101750,Sports,True,True
+ORD-101793,Beauty,False,True
+ORD-100069,Sports,False,True
+ORD-100102,Beauty,False,True
+ORD-100229,Sports,False,True
+ORD-100315,Sports,False,True
+ORD-100400,Electronics,False,True
+ORD-100520,Beauty,False,True
+ORD-100985,Fashion,False,True
+ORD-101745,Home & Kitchen,False,True
+ORD-101781,Electronics,False,True
+ORD-101881,Electronics,False,True
+ORD-101444,Home & Kitchen,False,True
+ORD-101577,Home & Kitchen,False,True
+ORD-101848,Beauty,False,True
+ORD-101115,Fashion,False,True
+ORD-101271,Beauty,False,True
+ORD-101529,Beauty,False,True
+ORD-100205,Fashion,True,True
+ORD-100280,Sports,False,True
+ORD-100545,Home & Kitchen,False,True
+ORD-100686,Sports,False,True
+ORD-100862,Beauty,False,True
+ORD-101284,Home & Kitchen,False,True
+ORD-100547,Home & Kitchen,False,True
+ORD-100906,Home & Kitchen,False,True
+ORD-101086,Electronics,False,True
+ORD-101998,Sports,False,True
+ORD-100152,Home & Kitchen,False,True
+ORD-100378,Beauty,False,True
+ORD-100999,Sports,False,True
+ORD-101723,Sports,False,True
+ORD-100810,Fashion,False,True
+ORD-100897,Home & Kitchen,False,True
+ORD-100963,Home & Kitchen,False,True
+ORD-101587,Home & Kitchen,False,True
+ORD-101851,Home & Kitchen,True,True
+ORD-101292,Electronics,False,True
+ORD-101325,Sports,False,True
+ORD-100016,Fashion,False,True
+ORD-100326,Electronics,True,True
+ORD-100443,Electronics,False,True
+ORD-100570,Beauty,False,True
+ORD-101308,Sports,False,True
+ORD-101807,Sports,True,True
+ORD-100236,Fashion,False,True
+ORD-100714,Sports,False,True
+ORD-100957,Beauty,False,True
+ORD-101299,Electronics,False,True
+ORD-101381,Electronics,False,True
+ORD-101653,Fashion,False,True
+ORD-100003,Beauty,True,True
+ORD-100702,Home & Kitchen,False,True
+ORD-100859,Home & Kitchen,False,True
+ORD-101242,Fashion,False,True
+ORD-100448,Fashion,False,True
+ORD-100632,Fashion,False,True
+ORD-100770,Electronics,False,True
+ORD-101180,Beauty,False,True
+ORD-101645,Sports,False,True
+ORD-101913,Sports,False,True
+ORD-100304,Electronics,False,True
+ORD-100720,Home & Kitchen,False,True
+ORD-100749,Beauty,False,True
+ORD-100881,Beauty,False,True
+ORD-101765,Fashion,False,True
+ORD-100964,Fashion,False,True
+ORD-100715,Electronics,False,True
+ORD-101039,Home & Kitchen,False,True
+ORD-100339,Fashion,False,True
+ORD-100394,Electronics,False,True
+ORD-100424,Sports,False,True
+ORD-101177,Beauty,False,True
+ORD-101300,Electronics,False,True
+ORD-100043,Beauty,False,True
+ORD-100863,Beauty,False,True
+ORD-101002,Electronics,False,True
+ORD-101466,Fashion,False,True
+ORD-101567,Home & Kitchen,False,True
+ORD-101878,Home & Kitchen,False,True
+ORD-100368,Beauty,False,True
+ORD-100608,Fashion,True,True
+ORD-100439,Fashion,False,True
+ORD-101312,Electronics,False,True
+ORD-101400,Electronics,False,True
+ORD-100214,Home & Kitchen,False,True
+ORD-100254,Electronics,False,True
+ORD-100718,Sports,False,True
+ORD-100721,Home & Kitchen,True,True
+ORD-100949,Electronics,False,True
+ORD-101067,Electronics,False,True
+ORD-101190,Sports,False,True
+ORD-101914,Beauty,False,True
+ORD-100823,Fashion,False,True
+ORD-101132,Fashion,False,True
+ORD-100097,Sports,False,True
+ORD-100193,Fashion,True,True
+ORD-100511,Home & Kitchen,False,True
+ORD-100606,Sports,False,True
+ORD-100028,Home & Kitchen,False,True
+ORD-100079,Home & Kitchen,False,True
+ORD-100463,Home & Kitchen,True,True
+ORD-100902,Beauty,False,True
+ORD-101852,Fashion,True,True
+ORD-100336,Beauty,False,True
+ORD-100554,Sports,False,True
+ORD-100935,Fashion,True,True
+ORD-101609,Beauty,True,True
+ORD-100154,Fashion,False,True
+ORD-100675,Sports,False,True
+ORD-100690,Sports,False,True
+ORD-101651,Home & Kitchen,False,True
+ORD-100507,Electronics,False,True
+ORD-101083,Fashion,False,True
+ORD-100445,Beauty,False,True
+ORD-100490,Fashion,False,True
+ORD-100573,Sports,False,True
+ORD-100582,Fashion,False,True
+ORD-101056,Home & Kitchen,False,True
+ORD-101614,Fashion,False,True
+ORD-101684,Beauty,False,True
+ORD-101737,Sports,False,True
+ORD-101546,Electronics,False,True
+ORD-101616,Home & Kitchen,False,True
+ORD-100089,Electronics,False,True
+ORD-100789,Home & Kitchen,False,True
+ORD-100820,Fashion,False,True
+ORD-101650,Beauty,False,True
+ORD-100682,Home & Kitchen,False,True
+ORD-100801,Sports,False,True
+ORD-100654,Fashion,False,True
+ORD-100955,Electronics,False,True
+ORD-101449,Sports,False,True
+ORD-100642,Beauty,False,True
+ORD-100746,Fashion,False,True
+ORD-101461,Beauty,False,True
+ORD-100051,Home & Kitchen,False,True
+ORD-100760,Electronics,False,True
+ORD-100969,Beauty,False,True
+ORD-101362,Beauty,False,True
+ORD-101398,Electronics,False,True
+ORD-100593,Beauty,False,True
+ORD-100602,Beauty,False,True
+ORD-100705,Electronics,False,True
+ORD-101097,Sports,False,True
+ORD-101338,Sports,False,True
+ORD-100291,Electronics,False,True
+ORD-100619,Home & Kitchen,False,True
+ORD-101051,Home & Kitchen,False,True
+ORD-101811,Electronics,False,True
+ORD-101932,Beauty,False,True
+ORD-100129,Beauty,False,True
+ORD-100227,Sports,False,True
+ORD-100239,Sports,False,True
+ORD-100282,Fashion,False,True
+ORD-101293,Electronics,False,True
+ORD-101407,Fashion,False,True
+ORD-101600,Beauty,False,True
+ORD-101827,Fashion,False,True
+ORD-100075,Beauty,False,True
+ORD-100544,Home & Kitchen,False,True
+ORD-100965,Fashion,True,True
+ORD-101267,Electronics,False,True
+ORD-101900,Home & Kitchen,False,True
+ORD-100182,Sports,False,True
+ORD-100204,Home & Kitchen,False,True
+ORD-100469,Sports,False,True
+ORD-100921,Beauty,False,True
+ORD-101728,Electronics,False,True
+ORD-101961,Electronics,False,True
+ORD-100159,Fashion,False,True
+ORD-100637,Electronics,False,True
+ORD-100689,Beauty,True,True
+ORD-101255,Sports,False,True
+ORD-101206,Fashion,False,True
+ORD-101576,Home & Kitchen,False,True
+ORD-101665,Beauty,False,True
+ORD-101404,Fashion,False,True
+ORD-100519,Electronics,False,True
+ORD-100687,Electronics,False,True
+ORD-101395,Beauty,False,True
+ORD-101536,Sports,False,True
+ORD-101591,Electronics,False,True
+ORD-100124,Fashion,False,True
+ORD-101063,Fashion,False,True
+ORD-101099,Home & Kitchen,False,True
+ORD-101235,Sports,False,True
+ORD-101740,Sports,False,True
+ORD-100292,Beauty,False,True
+ORD-100772,Electronics,False,True
+ORD-100818,Beauty,False,True
+ORD-100899,Fashion,False,True
+ORD-100919,Sports,False,True
+ORD-101280,Home & Kitchen,False,True
+ORD-101403,Beauty,True,True
+ORD-101891,Sports,False,True
+ORD-100127,Beauty,False,True
+ORD-100188,Fashion,False,True
+ORD-100657,Sports,False,True
+ORD-100724,Electronics,False,True
+ORD-101247,Beauty,False,True
+ORD-101310,Beauty,False,True
+ORD-101592,Fashion,False,True
+ORD-101743,Beauty,False,True
+ORD-100452,Beauty,False,True
+ORD-101105,Fashion,False,True
+ORD-101124,Home & Kitchen,True,True
+ORD-101657,Electronics,False,True
+ORD-101174,Electronics,False,True
+ORD-101753,Home & Kitchen,False,True
+ORD-100211,Electronics,False,True
+ORD-100651,Beauty,False,True
+ORD-101219,Home & Kitchen,False,True
+ORD-100756,Home & Kitchen,False,True
+ORD-101022,Sports,False,True
+ORD-101574,Fashion,False,True
+ORD-100523,Beauty,False,True
+ORD-101176,Fashion,False,True
+ORD-101618,Fashion,False,True
+ORD-100070,Electronics,False,True
+ORD-100113,Home & Kitchen,False,True
+ORD-100146,Home & Kitchen,False,True
+ORD-100359,Sports,False,True
+ORD-100741,Home & Kitchen,False,True
+ORD-101076,Fashion,False,True
+ORD-101458,Home & Kitchen,False,True
+ORD-101982,Home & Kitchen,False,True
+ORD-100252,Sports,False,True
+ORD-101228,Fashion,False,True
+ORD-101838,Home & Kitchen,False,True
+ORD-100024,Home & Kitchen,True,True
+ORD-100670,Fashion,False,True
+ORD-100994,Sports,False,True
+ORD-101143,Home & Kitchen,False,True
+ORD-101146,Sports,False,True
+ORD-101428,Fashion,False,True
+ORD-101477,Home & Kitchen,False,True
+ORD-100065,Home & Kitchen,False,True
+ORD-101047,Home & Kitchen,False,True
+ORD-101230,Fashion,False,True
+ORD-101406,Beauty,False,True
+ORD-101598,Home & Kitchen,True,True
+ORD-100105,Beauty,False,True
+ORD-100324,Sports,False,True
+ORD-100344,Fashion,False,True
+ORD-100733,Sports,False,True
+ORD-100719,Fashion,False,True
+ORD-101714,Sports,False,True
+ORD-101836,Beauty,False,True
+ORD-101849,Home & Kitchen,False,True
+ORD-100449,Beauty,False,True
+ORD-100950,Electronics,False,True
+ORD-100972,Home & Kitchen,False,True
+ORD-101430,Beauty,False,True
+ORD-100391,Sports,False,True
+ORD-100506,Electronics,False,True
+ORD-101073,Electronics,False,True
+ORD-101438,Sports,False,True
+ORD-100063,Fashion,False,True
+ORD-100364,Fashion,False,True
+ORD-100631,Fashion,False,True
+ORD-101187,Fashion,False,True
+ORD-101439,Beauty,False,True
+ORD-101487,Sports,False,True
+ORD-101489,Sports,False,True
+ORD-101770,Beauty,False,True
+ORD-101825,Home & Kitchen,False,True
+ORD-100299,Beauty,False,True
+ORD-100363,Electronics,False,True
+ORD-100799,Beauty,False,True
+ORD-100940,Fashion,False,True
+ORD-100022,Beauty,False,True
+ORD-100228,Home & Kitchen,False,True
+ORD-100481,Home & Kitchen,False,True
+ORD-101696,Beauty,False,True
+ORD-101864,Fashion,False,True
+ORD-100307,Electronics,False,True
+ORD-100728,Sports,False,True
+ORD-101491,Electronics,True,True
+ORD-101619,Sports,False,True
+ORD-101975,Home & Kitchen,False,True
+ORD-100148,Fashion,False,True
+ORD-100361,Fashion,False,True
+ORD-101186,Electronics,False,True
+ORD-100001,Fashion,False,True
+ORD-100401,Electronics,False,True
+ORD-101380,Sports,False,True
+ORD-101834,Sports,False,True
+ORD-100060,Home & Kitchen,False,True
+ORD-100366,Fashion,True,True
+ORD-100479,Fashion,False,True
+ORD-101108,Electronics,False,True
+ORD-100329,Beauty,False,True
+ORD-100556,Fashion,False,True
+ORD-100649,Home & Kitchen,False,True
+ORD-101943,Sports,False,True
+ORD-100647,Sports,False,True
+ORD-100004,Home & Kitchen,False,True
+ORD-101238,Electronics,False,True
+ORD-101469,Electronics,False,True
+ORD-101766,Beauty,False,True
+ORD-100076,Home & Kitchen,False,True
+ORD-100875,Beauty,False,True
+ORD-101193,Electronics,False,True
+ORD-101256,Home & Kitchen,False,True
+ORD-101339,Fashion,False,True
+ORD-100011,Electronics,False,True
+ORD-100577,Sports,False,True
+ORD-101222,Beauty,False,True
+ORD-100281,Fashion,False,True
+ORD-100706,Home & Kitchen,False,True
+ORD-101344,Beauty,False,True
+ORD-100492,Electronics,False,True
+ORD-101997,Sports,False,True
+ORD-100203,Beauty,False,True
+ORD-100271,Electronics,False,True
+ORD-100312,Fashion,False,True
+ORD-100457,Beauty,False,True
+ORD-100503,Electronics,False,True
+ORD-100986,Beauty,False,True
+ORD-101399,Electronics,False,True
+ORD-101674,Sports,False,True
+ORD-100332,Electronics,False,True
+ORD-100535,Beauty,False,True
+ORD-100581,Electronics,False,True
+ORD-100142,Beauty,False,True
+ORD-100466,Beauty,False,True
+ORD-100683,Beauty,False,True
+ORD-100913,Beauty,False,True
+ORD-101538,Beauty,False,True
+ORD-101539,Home & Kitchen,False,True
+ORD-100176,Fashion,False,True
+ORD-100562,Electronics,False,True
+ORD-101237,Beauty,False,True
+ORD-101257,Fashion,False,True
+ORD-101500,Home & Kitchen,True,True
+ORD-101788,Beauty,False,True
+ORD-101026,Home & Kitchen,False,True
+ORD-100198,Electronics,False,True
+ORD-100237,Home & Kitchen,False,True
+ORD-100431,Electronics,False,True
+ORD-100727,Sports,True,True
+ORD-101669,Fashion,False,True
+ORD-101984,Home & Kitchen,False,True
+ORD-101708,Sports,False,True
+ORD-100059,Electronics,False,True
+ORD-100149,Sports,False,True
+ORD-100218,Fashion,False,True
+ORD-100331,Fashion,False,True
+ORD-100411,Home & Kitchen,False,True
+ORD-100487,Sports,False,True
+ORD-101341,Beauty,False,True
+ORD-101117,Fashion,False,True
+ORD-101634,Home & Kitchen,False,True
+ORD-100622,Fashion,False,True
+ORD-101001,Fashion,True,True
+ORD-101382,Sports,False,True
+ORD-101553,Electronics,False,True
+ORD-100447,Home & Kitchen,False,True
+ORD-101008,Sports,False,True
+ORD-100174,Electronics,False,True
+ORD-100316,Electronics,False,True
+ORD-100372,Beauty,False,True
+ORD-101118,Sports,False,True
+ORD-101899,Home & Kitchen,False,True
+ORD-100121,Sports,False,True
+ORD-100433,Sports,False,True
+ORD-100758,Electronics,False,True
+ORD-101329,Sports,False,True
+ORD-101495,Sports,False,True
+ORD-100910,Electronics,False,True
+ORD-100040,Sports,False,True
+ORD-100047,Home & Kitchen,False,True
+ORD-101268,Home & Kitchen,False,True
+ORD-101383,Sports,False,True
+ORD-101532,Beauty,False,True
+ORD-101606,Beauty,True,True
+ORD-100939,Sports,False,True
+ORD-101465,Sports,False,True
+ORD-101599,Beauty,False,True
+ORD-101639,Sports,False,True
+ORD-100300,Beauty,False,True
+ORD-100393,Fashion,False,True
+ORD-100527,Fashion,False,True
+ORD-101392,Fashion,False,True
+ORD-101949,Electronics,False,True
+ORD-100050,Sports,False,True
+ORD-100674,Beauty,False,True
+ORD-101447,Sports,False,True
+ORD-100653,Fashion,True,True
+ORD-100890,Beauty,False,True
+ORD-101116,Electronics,False,True
+ORD-101432,Electronics,False,True
+ORD-100233,Electronics,False,True
+ORD-100320,Sports,False,True
+ORD-101435,Sports,False,True
+ORD-101504,Fashion,False,True
+ORD-100713,Fashion,True,True
+ORD-100871,Fashion,False,True
+ORD-101908,Sports,False,True
+ORD-100779,Sports,False,True
+ORD-101000,Electronics,False,True
+ORD-101157,Sports,False,True
+ORD-100338,Electronics,False,True
+ORD-101224,Home & Kitchen,False,True
+ORD-100704,Home & Kitchen,True,True
+ORD-100956,Beauty,False,True
+ORD-101796,Sports,False,True
+ORD-100107,Electronics,False,True
+ORD-100990,Sports,False,True
+ORD-100303,Sports,False,True
+ORD-100759,Beauty,False,True
+ORD-100761,Fashion,True,True
+ORD-101184,Beauty,False,True
+ORD-101562,Sports,False,True
+ORD-100409,Fashion,False,True
+ORD-100334,Electronics,False,True
+ORD-100629,Home & Kitchen,False,True
+ORD-100936,Fashion,False,True
+ORD-101944,Fashion,False,True
+ORD-101950,Beauty,False,True
+ORD-100029,Fashion,False,True
+ORD-100931,Sports,False,True
+ORD-101675,Sports,True,True
+ORD-101744,Electronics,False,True
+ORD-101841,Sports,False,True
+ORD-100056,Home & Kitchen,False,True
+ORD-101823,Home & Kitchen,False,True
+ORD-100694,Beauty,False,True
+ORD-100884,Sports,False,True
+ORD-101470,Beauty,False,True
+ORD-100740,Electronics,False,True
+ORD-101064,Sports,False,True
+ORD-101372,Electronics,False,True
+ORD-101768,Fashion,False,True
+ORD-100186,Home & Kitchen,False,True
+ORD-100333,Fashion,False,True
+ORD-101303,Beauty,False,True
+ORD-100277,Sports,False,True
+ORD-100625,Home & Kitchen,False,True
+ORD-101608,Sports,False,True
+ORD-100297,Electronics,False,True
+ORD-100465,Electronics,False,True
+ORD-100873,Home & Kitchen,False,True
+ORD-101790,Home & Kitchen,False,True
+ORD-101918,Home & Kitchen,False,True
+ORD-100143,Fashion,False,True
+ORD-100754,Fashion,False,True
+ORD-101217,Electronics,False,True
+ORD-101520,Electronics,False,True
+ORD-100639,Home & Kitchen,False,True
+ORD-100815,Beauty,False,True
+ORD-101106,Electronics,False,True
+ORD-101125,Sports,False,True
+ORD-100082,Fashion,False,True
+ORD-100480,Fashion,False,True
+ORD-101102,Beauty,False,True
+ORD-101192,Electronics,False,True
+ORD-100317,Fashion,False,True
+ORD-100624,Fashion,False,True
+ORD-101629,Sports,False,True
+ORD-100145,Beauty,False,True
+ORD-100757,Electronics,False,True
+ORD-101805,Electronics,False,True
+ORD-101893,Sports,False,True
+ORD-100461,Fashion,False,True
+ORD-100543,Electronics,False,True
+ORD-101575,Beauty,False,True
+ORD-101929,Electronics,False,True
+ORD-100407,Electronics,False,True
+ORD-100551,Sports,False,True
+ORD-101082,Electronics,False,True
+ORD-101486,Beauty,False,True
+ORD-101602,Electronics,False,True
+ORD-100587,Beauty,False,True
+ORD-100709,Home & Kitchen,False,True
+ORD-101131,Electronics,False,True
+ORD-100549,Home & Kitchen,False,True
+ORD-101813,Electronics,False,True
+ORD-100778,Fashion,False,True
+ORD-101065,Fashion,False,True
+ORD-101353,Fashion,False,True
+ORD-101776,Electronics,False,True
+ORD-101094,Beauty,False,True
+ORD-101212,Beauty,False,True
+ORD-101786,Sports,False,True
+ORD-100037,Home & Kitchen,False,True
+ORD-100195,Fashion,False,True
+ORD-100851,Fashion,False,True
+ORD-100967,Electronics,False,True
+ORD-101288,Sports,False,True
+ORD-101561,Fashion,False,True
+ORD-101829,Fashion,False,True
+ORD-100764,Home & Kitchen,False,True
+ORD-100995,Electronics,False,True
+ORD-101214,Beauty,False,True
+ORD-101564,Electronics,False,True
+ORD-101843,Fashion,False,True
+ORD-101971,Beauty,False,True
+ORD-100322,Beauty,False,True
+ORD-101402,Sports,True,True
+ORD-101956,Fashion,False,True
+ORD-101988,Fashion,False,True
+ORD-100212,Electronics,False,True
+ORD-100636,Home & Kitchen,False,True
+ORD-100829,Home & Kitchen,False,True
+ORD-101181,Fashion,False,True
+ORD-101218,Beauty,False,True
+ORD-101390,Sports,False,True
+ORD-100853,Home & Kitchen,False,True
+ORD-100989,Home & Kitchen,False,True
+ORD-100711,Electronics,False,True
+ORD-101226,Sports,False,True
+ORD-101482,Beauty,False,True
+ORD-101678,Home & Kitchen,False,True
+ORD-101939,Beauty,False,True
+ORD-101996,Beauty,False,True
+ORD-101393,Beauty,False,True
+ORD-101456,Home & Kitchen,False,True
+ORD-100231,Electronics,False,True
+ORD-100641,Home & Kitchen,False,True
+ORD-100665,Fashion,False,True
+ORD-101269,Home & Kitchen,False,True
+ORD-101590,Sports,False,True
+ORD-101642,Beauty,False,True
+ORD-101667,Beauty,False,True
+ORD-101861,Home & Kitchen,False,True
+ORD-101919,Home & Kitchen,False,True
+ORD-100285,Beauty,False,True
+ORD-100663,Fashion,False,True
+ORD-101524,Sports,False,True
+ORD-101703,Fashion,False,True
+ORD-100222,Home & Kitchen,False,True
+ORD-100529,Home & Kitchen,False,True
+ORD-100595,Electronics,False,True
+ORD-100717,Beauty,False,True
+ORD-100835,Beauty,False,True
+ORD-101307,Fashion,False,True
+ORD-101837,Sports,False,True
+ORD-100473,Fashion,False,True
+ORD-101434,Sports,False,True
+ORD-101676,Beauty,False,True
+ORD-100514,Fashion,False,True
+ORD-101185,Fashion,False,True
+ORD-101209,Beauty,False,True
+ORD-101732,Electronics,True,True
+ORD-100830,Electronics,True,True
+ORD-101501,Beauty,False,True
+ORD-101677,Sports,False,True
+ORD-101782,Beauty,False,True
+ORD-101804,Beauty,False,True
+ORD-101886,Beauty,False,True
+ORD-100831,Beauty,False,True
+ORD-101865,Beauty,False,True
+ORD-100699,Fashion,False,True
+ORD-100858,Home & Kitchen,False,True
+ORD-101301,Electronics,False,True
+ORD-101821,Electronics,True,True
+ORD-100838,Home & Kitchen,False,True
+ORD-101068,Fashion,True,True
+ORD-101248,Sports,False,True
+ORD-100505,Home & Kitchen,False,True
+ORD-101294,Home & Kitchen,False,True
+ORD-101579,Fashion,False,True
+ORD-101707,Home & Kitchen,False,True
+ORD-101795,Sports,False,True
+ORD-101936,Beauty,False,True
+ORD-100071,Beauty,True,True
+ORD-100358,Fashion,True,True
+ORD-100765,Fashion,False,True
+ORD-101636,Electronics,False,True
+ORD-101690,Beauty,False,True
+ORD-100209,Electronics,False,True
+ORD-100569,Sports,False,True
+ORD-101803,Electronics,False,True
+ORD-100311,Home & Kitchen,False,True
+ORD-100991,Beauty,True,True
+ORD-101061,Electronics,False,True
+ORD-101433,Fashion,False,True
+ORD-101935,Sports,True,True
+ORD-100362,Beauty,False,True
+ORD-100525,Electronics,False,True
+ORD-101260,Beauty,False,True
+ORD-101276,Fashion,False,True
+ORD-101523,Sports,False,True
+ORD-100202,Electronics,False,True
+ORD-101182,Home & Kitchen,False,True
+ORD-100440,Sports,False,True
+ORD-100521,Fashion,False,True
+ORD-100966,Fashion,False,True
+ORD-100042,Electronics,False,True
+ORD-100367,Sports,True,True
+ORD-100518,Home & Kitchen,False,True
+ORD-100981,Sports,False,True
+ORD-101953,Fashion,True,True
+ORD-100010,Home & Kitchen,False,True
+ORD-100356,Sports,False,True
+ORD-100777,Fashion,False,True
+ORD-100837,Home & Kitchen,False,True
+ORD-100876,Home & Kitchen,False,True
+ORD-101397,Fashion,False,True
+ORD-101731,Sports,False,True
+ORD-100115,Fashion,False,True
+ORD-101015,Electronics,False,True
+ORD-101377,Electronics,False,True
+ORD-100774,Sports,False,True
+ORD-101594,Electronics,False,True
+ORD-101972,Beauty,False,True
+ORD-101355,Beauty,False,True
+ORD-100821,Home & Kitchen,False,True
+ORD-100933,Beauty,False,True
+ORD-101394,Electronics,False,True
+ORD-101440,Fashion,False,True
+ORD-101647,Beauty,False,True
+ORD-101761,Beauty,False,True
+ORD-100224,Home & Kitchen,False,True
+ORD-101197,Fashion,False,True
+ORD-101543,Fashion,False,True
+ORD-101746,Home & Kitchen,False,True
+ORD-100019,Beauty,False,True
+ORD-100467,Fashion,False,True
+ORD-100648,Home & Kitchen,False,True
+ORD-101649,Fashion,False,True
+ORD-101711,Home & Kitchen,False,True
+ORD-100012,Fashion,False,True
+ORD-100597,Home & Kitchen,False,True
+ORD-100698,Home & Kitchen,False,True
+ORD-100360,Electronics,False,True
+ORD-101135,Electronics,False,True
+ORD-101170,Sports,False,True
+ORD-101318,Fashion,False,True
+ORD-101323,Beauty,False,True
+ORD-101725,Electronics,False,True
+ORD-100596,Beauty,False,True
+ORD-101053,Fashion,False,True
+ORD-100130,Electronics,False,True
+ORD-100335,Beauty,False,True
+ORD-100345,Fashion,False,True
+ORD-101589,Electronics,False,True
+ORD-101995,Fashion,False,True
+ORD-100813,Beauty,False,True
+ORD-101122,Sports,False,True
+ORD-101203,Electronics,False,True
+ORD-101298,Sports,False,True
+ORD-101337,Home & Kitchen,False,True
+ORD-101481,Sports,False,True
+ORD-101654,Sports,False,True
+ORD-100809,Beauty,False,True
+ORD-100865,Fashion,False,True
+ORD-101515,Sports,False,True
+ORD-100880,Home & Kitchen,False,True
+ORD-101278,Sports,False,True
+ORD-101351,Beauty,False,True
+ORD-101907,Fashion,False,True
+ORD-101103,Fashion,False,True
+ORD-100095,Beauty,False,True
+ORD-101414,Beauty,False,True
+ORD-101511,Electronics,False,True
+ORD-100533,Fashion,False,True
+ORD-101828,Electronics,False,True
+ORD-100151,Beauty,False,True
+ORD-100253,Fashion,False,True
+ORD-100567,Beauty,False,True
+ORD-101154,Electronics,False,True
+ORD-101322,Fashion,False,True
+ORD-101457,Electronics,False,True
+ORD-101596,Fashion,False,True
+ORD-100342,Sports,False,True
+ORD-100408,Beauty,False,True
+ORD-100743,Electronics,False,True
+ORD-100947,Home & Kitchen,False,True
+ORD-101311,Electronics,False,True
+ORD-101556,Electronics,False,True
+ORD-101965,Beauty,False,True
+ORD-100314,Fashion,True,True
+ORD-100530,Beauty,False,True
+ORD-101114,Home & Kitchen,False,True
+ORD-101313,Electronics,False,True
+ORD-101476,Home & Kitchen,False,True
+ORD-101483,Fashion,True,True
+ORD-101200,Beauty,False,True
+ORD-101348,Home & Kitchen,False,True
+ORD-101715,Fashion,True,True
+ORD-101369,Beauty,False,True
+ORD-101437,Fashion,False,True
+ORD-101738,Beauty,False,True
+ORD-100318,Sports,False,True
+ORD-101236,Electronics,False,True
+ORD-100323,Sports,False,True
+ORD-100571,Sports,False,True
+ORD-101749,Beauty,False,True
+ORD-100020,Beauty,False,True
+ORD-100247,Beauty,False,True
+ORD-100249,Fashion,False,True
+ORD-100531,Fashion,False,True
+ORD-100695,Electronics,False,True
+ORD-100780,Beauty,False,True
+ORD-101054,Electronics,False,True
+ORD-101320,Beauty,False,True
+ORD-101423,Electronics,False,True
+ORD-101661,Beauty,False,True
+ORD-100091,Beauty,False,True
+ORD-101346,Fashion,False,True
+ORD-100166,Home & Kitchen,False,True
+ORD-100781,Electronics,False,True
+ORD-101254,Sports,False,True
+ORD-101652,Sports,False,True
+ORD-100219,Electronics,False,True
+ORD-100250,Sports,False,True
+ORD-100541,Sports,False,True
+ORD-100836,Beauty,False,True
+ORD-100941,Sports,False,True
+ORD-101876,Electronics,False,True
+ORD-101306,Sports,False,True
+ORD-101316,Beauty,False,True
+ORD-101903,Sports,False,True
+ORD-100177,Home & Kitchen,False,True
+ORD-100387,Electronics,False,True
+ORD-100792,Home & Kitchen,False,True
+ORD-100816,Electronics,True,True
+ORD-100932,Beauty,False,True
+ORD-101560,Electronics,False,True
+ORD-101656,Electronics,False,True
+ORD-100147,Electronics,False,True
+ORD-100352,Fashion,True,True
+ORD-100357,Home & Kitchen,False,True
+ORD-100414,Beauty,False,True
+ORD-101734,Fashion,False,True
+ORD-100504,Home & Kitchen,False,True
+ORD-100539,Sports,False,True
+ORD-101011,Beauty,False,True
+ORD-101168,Electronics,False,True
+ORD-101509,Fashion,False,True
+ORD-101874,Beauty,False,True
+ORD-100827,Beauty,False,True
+ORD-101173,Fashion,False,True
+ORD-101664,Sports,False,True
+ORD-101840,Electronics,False,True
+ORD-100101,Beauty,False,True
+ORD-100340,Sports,False,True
+ORD-100522,Home & Kitchen,True,True
+ORD-100616,Home & Kitchen,False,True
+ORD-100958,Electronics,False,True
+ORD-100064,Beauty,False,True
+ORD-100184,Beauty,False,True
+ORD-100975,Fashion,False,True
+ORD-101130,Sports,False,True
+ORD-101410,Beauty,False,True
+ORD-101699,Electronics,False,True
+ORD-100446,Sports,False,True
+ORD-101104,Electronics,False,True
+ORD-101565,Fashion,False,True
+ORD-101784,Electronics,False,True
+ORD-100404,Beauty,False,True
+ORD-100877,Sports,False,True
+ORD-101693,Fashion,False,True
+ORD-101777,Electronics,False,True
+ORD-100805,Sports,False,True
+ORD-100846,Fashion,False,True
+ORD-101120,Sports,False,True
+ORD-100138,Home & Kitchen,False,True
+ORD-100343,Fashion,True,True
+ORD-100390,Electronics,False,True
+ORD-100435,Beauty,True,True
+ORD-101109,Sports,False,True
+ORD-101234,Fashion,False,True
+ORD-101265,Beauty,False,True
+ORD-101572,Sports,False,True
+ORD-101785,Fashion,False,True
+ORD-100536,Sports,False,True
+ORD-101030,Fashion,False,True
+ORD-101074,Sports,False,True
+ORD-101162,Sports,False,True
+ORD-101426,Sports,False,True
+ORD-101885,Beauty,False,True
+ORD-100410,Sports,True,True
+ORD-101478,Fashion,False,True
+ORD-101847,Home & Kitchen,False,True
+ORD-100104,Electronics,False,True
+ORD-100168,Electronics,False,True
+ORD-100223,Home & Kitchen,False,True
+ORD-100264,Home & Kitchen,False,True
+ORD-100542,Home & Kitchen,False,True
+ORD-100668,Electronics,False,True
+ORD-100351,Sports,False,True
+ORD-100501,Beauty,False,True
+ORD-100915,Sports,False,True
+ORD-101249,Sports,False,True
+ORD-101450,Electronics,False,True
+ORD-101548,Sports,False,True
+ORD-100111,Sports,False,True
+ORD-100213,Fashion,False,True
+ORD-100347,Beauty,False,True
+ORD-100768,Beauty,False,True
+ORD-101387,Electronics,False,True
+ORD-101887,Fashion,False,True
+ORD-101296,Home & Kitchen,False,True
+ORD-101488,Sports,True,True
+ORD-101533,Beauty,False,True
+ORD-100295,Electronics,False,True
+ORD-101442,Home & Kitchen,False,True
+ORD-100337,Fashion,False,True
+ORD-100489,Fashion,True,True
+ORD-100626,Sports,False,True
+ORD-101018,Fashion,False,True
+ORD-101121,Fashion,False,True
+ORD-101169,Sports,False,True
+ORD-101671,Home & Kitchen,False,True
+ORD-101869,Beauty,False,True
+ORD-100057,Fashion,False,True
+ORD-100200,Sports,False,True
+ORD-100640,Beauty,False,True
+ORD-100652,Sports,False,True
+ORD-100889,Electronics,False,True
+ORD-100918,Sports,False,True
+ORD-100451,Home & Kitchen,False,True
+ORD-100790,Beauty,False,True
+ORD-100916,Fashion,False,True
+ORD-101029,Fashion,False,True
+ORD-100273,Fashion,False,True
+ORD-100279,Beauty,False,True
+ORD-100553,Beauty,False,True
+ORD-101621,Fashion,False,True
+ORD-101947,Beauty,False,True
+ORD-101957,Home & Kitchen,True,True
+ORD-100183,Sports,False,True
+ORD-100288,Home & Kitchen,False,True
+ORD-100914,Sports,False,True
+ORD-100927,Beauty,False,True
+ORD-100978,Sports,False,True
+ORD-101017,Fashion,True,True
+ORD-101773,Home & Kitchen,False,True
+ORD-101850,Sports,False,True
+ORD-101880,Home & Kitchen,False,True
+ORD-101909,Electronics,False,True
+ORD-101033,Beauty,False,True
+ORD-101213,Fashion,False,True
+ORD-100008,Beauty,False,True
+ORD-100659,Electronics,False,True
+ORD-100677,Beauty,False,True
+ORD-100841,Electronics,True,True
+ORD-100951,Fashion,False,True
+ORD-100959,Electronics,False,True
+ORD-100988,Beauty,False,True
+ORD-101801,Electronics,False,True
+ORD-100365,Fashion,False,True
+ORD-100437,Beauty,False,True
+ORD-100610,Fashion,False,True
+ORD-100710,Home & Kitchen,False,True
+ORD-101215,Fashion,False,True
+ORD-100030,Home & Kitchen,False,True
+ORD-100073,Home & Kitchen,False,True
+ORD-101101,Fashion,False,True
+ORD-101530,Home & Kitchen,False,True
+ORD-101057,Fashion,False,True
+ORD-101627,Sports,False,True
+ORD-101842,Sports,False,True
+ORD-101071,Beauty,False,True
+ORD-101165,Home & Kitchen,True,True
+ORD-101451,Electronics,False,True
+ORD-100265,Sports,False,True
+ORD-100405,Fashion,False,True
+ORD-101464,Electronics,False,True
+ORD-101873,Beauty,False,True
+ORD-100072,Sports,False,True
+ORD-100178,Home & Kitchen,False,True
+ORD-100230,Beauty,True,True
+ORD-100412,Sports,False,True
+ORD-100513,Beauty,True,True
+ORD-100693,Beauty,False,True
+ORD-100937,Electronics,False,True
+ORD-101358,Home & Kitchen,False,True
+ORD-100377,Fashion,False,True
+ORD-100517,Home & Kitchen,False,True
+ORD-101663,Fashion,False,True
+ORD-101748,Sports,False,True
+ORD-100044,Beauty,False,True
+ORD-100599,Electronics,False,True
+ORD-101331,Fashion,True,True
+ORD-101424,Home & Kitchen,True,True
+ORD-101735,Sports,False,True
+ORD-100208,Electronics,False,True
+ORD-100515,Beauty,False,True
+ORD-100793,Sports,False,True
+ORD-100796,Sports,False,True
+ORD-101422,Beauty,False,True
+ORD-101687,Beauty,False,True
+ORD-101691,Electronics,False,True
+ORD-101791,Beauty,False,True
+ORD-100557,Electronics,False,True
+ORD-100591,Fashion,False,True
+ORD-100643,Fashion,False,True
+ORD-100803,Sports,False,True
+ORD-100053,Home & Kitchen,False,True
+ORD-100371,Home & Kitchen,False,True
+ORD-101643,Home & Kitchen,False,True
+ORD-101759,Electronics,True,True
+ORD-100313,Fashion,False,True
+ORD-100383,Home & Kitchen,False,True
+ORD-100782,Fashion,False,True
+ORD-100794,Beauty,False,True
+ORD-101441,Beauty,False,True
+ORD-101493,Home & Kitchen,False,True
+ORD-101712,Beauty,False,True
+ORD-100478,Beauty,False,True
+ORD-100700,Electronics,False,True
+ORD-101259,Beauty,False,True
+ORD-101872,Sports,False,True
+ORD-100225,Electronics,False,True
+ORD-101202,Fashion,False,True
+ORD-101898,Beauty,False,True
+ORD-100141,Beauty,False,True
+ORD-100157,Beauty,False,True
+ORD-101050,Electronics,False,True
+ORD-101277,Fashion,False,True
+ORD-101297,Electronics,False,True
+ORD-101682,Beauty,True,True
+ORD-100392,Beauty,False,True
+ORD-100666,Beauty,False,True
+ORD-101448,Electronics,False,True
+ORD-100575,Home & Kitchen,False,True
+ORD-100879,Beauty,False,True
+ORD-101970,Electronics,False,True
+ORD-100421,Electronics,False,True
+ORD-100436,Beauty,False,True
+ORD-100861,Electronics,False,True
+ORD-100196,Beauty,False,True
+ORD-100197,Beauty,False,True
+ORD-100397,Beauty,False,True
+ORD-100834,Beauty,False,True
+ORD-101195,Sports,False,True
+ORD-101545,Home & Kitchen,False,True
+ORD-100500,Sports,False,True
+ORD-100845,Home & Kitchen,True,True
+ORD-101058,Electronics,False,True
+ORD-101467,Sports,False,True
+ORD-101494,Electronics,False,True
+ORD-101632,Beauty,False,True
+ORD-101983,Beauty,False,True
+ORD-100005,Beauty,False,True
+ORD-100656,Electronics,False,True
+ORD-100996,Beauty,False,True
+ORD-101150,Electronics,False,True
+ORD-101547,Beauty,False,True
+ORD-101655,Electronics,False,True
+ORD-101762,Beauty,False,True
+ORD-101960,Home & Kitchen,True,True
+ORD-100388,Electronics,False,True
+ORD-100887,Home & Kitchen,True,True
+ORD-101356,Beauty,False,True
+ORD-101620,Electronics,True,True
+ORD-100241,Beauty,False,True
+ORD-100745,Sports,False,True
+ORD-100769,Electronics,False,True
+ORD-101161,Beauty,False,True
+ORD-101819,Home & Kitchen,False,True
+ORD-100855,Electronics,False,True
+ORD-100911,Electronics,False,True
+ORD-100917,Sports,False,True
+ORD-101016,Sports,True,True
+ORD-101775,Home & Kitchen,False,True
+ORD-100140,Electronics,False,True
+ORD-100419,Electronics,False,True
+ORD-101037,Sports,False,True
+ORD-101045,Electronics,False,True
+ORD-100126,Sports,False,True
+ORD-100169,Home & Kitchen,False,True
+ORD-100528,Electronics,False,True
+ORD-101558,Beauty,False,True
+ORD-101822,Sports,False,True
+ORD-101933,Electronics,False,True
+ORD-101934,Beauty,False,True
+ORD-100257,Home & Kitchen,False,True
+ORD-100302,Electronics,False,True
+ORD-101004,Fashion,True,True
+ORD-101324,Fashion,False,True
+ORD-101349,Beauty,True,True
+ORD-101527,Sports,False,True
+ORD-101889,Fashion,False,True
+ORD-100031,Sports,False,True
+ORD-100658,Beauty,False,True
+ORD-100984,Home & Kitchen,False,True
+ORD-101019,Beauty,False,True
+ORD-101233,Electronics,False,True
+ORD-101658,Home & Kitchen,False,True
+ORD-101727,Beauty,False,True
+ORD-100058,Home & Kitchen,False,True
+ORD-100406,Electronics,False,True
+ORD-101797,Electronics,False,True
+ORD-101799,Home & Kitchen,False,True
+ORD-100374,Beauty,False,True
+ORD-100635,Home & Kitchen,False,True
+ORD-101060,Fashion,False,True
+ORD-101100,Sports,False,True
+ORD-101145,Fashion,False,True
+ORD-101554,Home & Kitchen,False,True
+ORD-101816,Fashion,False,True
+ORD-101641,Electronics,False,True
+ORD-101769,Beauty,False,True
+ORD-100576,Sports,False,True
+ORD-100628,Beauty,False,True
+ORD-100483,Sports,False,True
+ORD-100661,Fashion,False,True
+ORD-101059,Sports,False,True
+ORD-101066,Beauty,False,True
+ORD-101327,Sports,False,True
+ORD-101069,Fashion,False,True
+ORD-101534,Fashion,True,True
+ORD-100068,Electronics,False,True
+ORD-100106,Fashion,False,True
+ORD-100540,Fashion,False,True
+ORD-100588,Home & Kitchen,False,True
+ORD-100912,Electronics,False,True
+ORD-101153,Beauty,False,True
+ORD-101648,Fashion,False,True
+ORD-101928,Sports,False,True
+ORD-101188,Fashion,False,True
+ORD-101868,Fashion,True,True
+ORD-100013,Electronics,False,True
+ORD-100870,Fashion,False,True
+ORD-100874,Electronics,False,True
+ORD-100926,Home & Kitchen,False,True
+ORD-101133,Home & Kitchen,False,True
+ORD-101183,Home & Kitchen,False,True
+ORD-101419,Home & Kitchen,False,True
+ORD-101911,Electronics,False,True
+ORD-100027,Fashion,False,True
+ORD-100190,Beauty,False,True
+ORD-100232,Home & Kitchen,False,True
+ORD-100287,Electronics,False,True
+ORD-100922,Fashion,False,True
+ORD-100997,Home & Kitchen,False,True
+ORD-101755,Fashion,False,True
+ORD-100185,Electronics,False,True
+ORD-100526,Sports,False,True
+ORD-101035,Electronics,False,True
+ORD-100389,Electronics,False,True
+ORD-100722,Fashion,False,True
+ORD-101660,Beauty,False,True
+ORD-100346,Electronics,False,True
+ORD-100566,Beauty,False,True
+ORD-101167,Electronics,False,True
+ORD-101232,Sports,False,True
+ORD-101391,Home & Kitchen,False,True
+ORD-101815,Fashion,True,True
+ORD-100032,Fashion,False,True
+ORD-100150,Electronics,False,True
+ORD-100243,Beauty,False,True
+ORD-100268,Beauty,False,True
+ORD-100730,Sports,False,True
+ORD-100849,Home & Kitchen,False,True
+ORD-101455,Electronics,False,True
+ORD-101856,Home & Kitchen,False,True
+ORD-101917,Fashion,False,True
+ORD-100108,Fashion,False,True
+ORD-100825,Fashion,False,True
+ORD-101780,Sports,False,True
+ORD-100131,Home & Kitchen,True,True
+ORD-100348,Sports,False,True
+ORD-101156,Electronics,False,True
+ORD-101384,Beauty,False,True
+ORD-101463,Fashion,False,True
+ORD-100283,Electronics,False,True
+ORD-100015,Sports,False,True
+ORD-100555,Sports,False,True
+ORD-100607,Fashion,False,True
+ORD-101490,Beauty,False,True
+ORD-100052,Beauty,False,True
+ORD-100425,Home & Kitchen,False,True
+ORD-101052,Electronics,False,True
+ORD-101673,Home & Kitchen,False,True
+ORD-101692,Electronics,False,True
+ORD-101787,Home & Kitchen,False,True
+ORD-100510,Beauty,False,True
+ORD-100604,Electronics,False,True
+ORD-100968,Beauty,False,True
+ORD-100977,Fashion,False,True
+ORD-100144,Electronics,False,True
+ORD-100245,Sports,True,True
+ORD-100495,Sports,False,True
+ORD-101220,Home & Kitchen,False,True
+ORD-101340,Electronics,False,True
+ORD-101078,Electronics,False,True
+ORD-101147,Fashion,False,True
+ORD-100309,Fashion,False,True
+ORD-100354,Electronics,False,True
+ORD-100429,Sports,False,True
+ORD-100983,Electronics,False,True
+ORD-101227,Fashion,False,True
+ORD-101522,Sports,False,True
+ORD-101870,Beauty,False,True
+ORD-101964,Sports,False,True
+ORD-100293,Home & Kitchen,False,True
+ORD-100688,Beauty,False,True
+ORD-100872,Beauty,False,True
+ORD-101043,Fashion,False,True
+ORD-100179,Beauty,False,True
+ORD-100878,Beauty,False,True
+ORD-100341,Home & Kitchen,True,True
+ORD-100353,Beauty,False,True
+ORD-101335,Sports,False,True
+ORD-101551,Sports,False,True
+ORD-101722,Beauty,False,True
+ORD-100192,Fashion,False,True
+ORD-100498,Electronics,False,True
+ORD-100953,Fashion,True,True
+ORD-101525,Fashion,False,True
+ORD-101809,Beauty,False,True
+ORD-101291,Fashion,False,True
+ORD-101507,Electronics,False,True
+ORD-100099,Home & Kitchen,False,True
+ORD-100244,Fashion,False,True
+ORD-100586,Beauty,False,True
+ORD-100701,Fashion,False,True
+ORD-101085,Electronics,False,True
+ORD-101158,Electronics,False,True
+ORD-101863,Home & Kitchen,False,True
+ORD-100074,Home & Kitchen,False,True
+ORD-100748,Electronics,False,True
+ORD-101948,Electronics,False,True
+ORD-100122,Electronics,False,True
+ORD-101046,Home & Kitchen,False,True
+ORD-101895,Sports,False,True
+ORD-101107,Electronics,False,True
+ORD-101436,Electronics,False,True
+ORD-101508,Electronics,False,True
+ORD-100952,Electronics,False,True
+ORD-101207,Home & Kitchen,True,True
+ORD-101610,Electronics,False,True
+ORD-101462,Electronics,False,True
+ORD-101563,Electronics,False,True
+ORD-101603,Sports,False,True
+ORD-101771,Electronics,False,True
+ORD-101941,Fashion,False,True
+ORD-101028,Electronics,False,True
+ORD-101139,Sports,False,True
+ORD-101179,Sports,False,True
+ORD-101429,Sports,False,True
+ORD-101617,Sports,False,True
+ORD-100755,Sports,False,True
+ORD-100795,Sports,False,True
+ORD-101518,Home & Kitchen,False,True
+ORD-101883,Home & Kitchen,False,True
+ORD-101930,Home & Kitchen,False,True
+ORD-101966,Electronics,False,True
+ORD-100081,Electronics,False,True
+ORD-100430,Electronics,False,True
+ORD-101388,Home & Kitchen,False,True
+ORD-101858,Home & Kitchen,False,True
+ORD-100220,Electronics,False,True
+ORD-100491,Electronics,False,True
+ORD-101363,Fashion,False,True
+ORD-101412,Sports,False,True
+ORD-101601,Beauty,False,True
+ORD-101860,Beauty,False,True
+ORD-100462,Electronics,False,True
+ORD-100561,Electronics,False,True
+ORD-101989,Home & Kitchen,False,True
+ORD-101417,Beauty,False,True
+ORD-101716,Fashion,False,True
+ORD-101926,Fashion,False,True
+ORD-100077,Home & Kitchen,False,True
+ORD-101198,Electronics,False,True
+ORD-101246,Sports,False,True
+ORD-100883,Home & Kitchen,False,True
+ORD-101411,Sports,False,True
+ORD-100090,Electronics,False,True
+ORD-100502,Sports,False,True
+ORD-101204,Sports,False,True
+ORD-101270,Home & Kitchen,False,True
+ORD-101854,Home & Kitchen,False,True
+ORD-100021,Sports,False,True
+ORD-101032,Sports,False,True
+ORD-101334,Beauty,False,True
+ORD-101916,Fashion,True,True
+ORD-100134,Fashion,True,True
+ORD-100920,Electronics,False,True
+ORD-101742,Beauty,False,True
+ORD-101973,Electronics,False,True
+ORD-100869,Sports,False,True
+ORD-100256,Sports,False,True
+ORD-100260,Electronics,False,True
+ORD-101366,Sports,False,True
+ORD-100395,Beauty,False,True
+ORD-100948,Fashion,False,True
+ORD-101092,Sports,False,True
+ORD-101475,Sports,True,True
+ORD-101566,Electronics,True,True
+ORD-101820,Electronics,False,True
+ORD-100613,Beauty,False,True
+ORD-100646,Electronics,False,True
+ORD-100833,Beauty,False,True
+ORD-100886,Fashion,False,True
+ORD-100896,Fashion,False,True
+ORD-101994,Electronics,False,True
+ORD-100645,Sports,False,True
+ORD-101036,Beauty,False,True
+ORD-101239,Fashion,False,True
+ORD-100512,Beauty,False,True
+ORD-101005,Beauty,False,True
+ORD-101925,Beauty,False,True
+ORD-100002,Home & Kitchen,False,True
+ORD-100684,Fashion,False,True
+ORD-100857,Beauty,False,True
+ORD-101354,Electronics,False,True
+ORD-101357,Electronics,False,True
+ORD-101855,Sports,False,True
+ORD-100038,Home & Kitchen,False,True
+ORD-101110,Home & Kitchen,False,True
+ORD-101315,Beauty,False,True
+ORD-101416,Beauty,False,True
+ORD-101571,Fashion,False,True
+ORD-101535,Beauty,False,True
+ORD-101906,Fashion,False,True
+ORD-101912,Home & Kitchen,False,True
+ORD-100379,Electronics,False,True
+ORD-100672,Fashion,False,True
+ORD-100824,Home & Kitchen,False,True
+ORD-100033,Home & Kitchen,False,True
+ORD-100524,Home & Kitchen,False,True
+ORD-100928,Beauty,False,True
+ORD-100007,Beauty,False,True
+ORD-101505,Beauty,False,True
+ORD-101967,Sports,False,True
+ORD-100120,Home & Kitchen,True,True
+ORD-100735,Home & Kitchen,False,True
+ORD-100296,Electronics,False,True
+ORD-100696,Beauty,False,True
+ORD-101210,Electronics,False,True
+ORD-101741,Beauty,False,True
+ORD-101845,Sports,False,True
+ORD-100017,Electronics,False,True
+ORD-101175,Sports,False,True
+ORD-101250,Beauty,False,True
+ORD-101253,Electronics,False,True
+ORD-100191,Electronics,False,True
+ORD-100509,Sports,False,True
+ORD-100621,Fashion,False,True
+ORD-101093,Electronics,False,True
+ORD-100667,Home & Kitchen,True,True
+ORD-101274,Beauty,False,True
+ORD-101662,Beauty,False,True
+ORD-100187,Sports,False,True
+ORD-100289,Electronics,False,True
+ORD-100548,Home & Kitchen,False,True
+ORD-100589,Electronics,False,True
+ORD-101420,Beauty,False,True
+ORD-100484,Beauty,False,True
+ORD-101012,Sports,False,True
+ORD-101330,Home & Kitchen,False,True
+ORD-100592,Fashion,False,True
+ORD-100751,Beauty,False,True
+ORD-100895,Fashion,False,True
+ORD-101240,Sports,False,True
+ORD-101347,Home & Kitchen,False,True
+ORD-100206,Home & Kitchen,False,True
+ORD-100732,Beauty,False,True
+ORD-101013,Fashion,True,True
+ORD-101319,Beauty,False,True
+ORD-100006,Sports,False,True
+ORD-101568,Electronics,False,True
+ORD-101792,Fashion,False,True
+ORD-101817,Home & Kitchen,False,True
+ORD-101142,Electronics,False,True
+ORD-100139,Fashion,False,True
+ORD-100456,Electronics,False,True
+ORD-101010,Fashion,False,True
+ORD-101826,Sports,False,True
+ORD-101859,Beauty,False,True
+ORD-101376,Beauty,False,True
+ORD-101583,Electronics,False,True
+ORD-100274,Beauty,False,True
+ORD-100671,Fashion,False,True
+ORD-100942,Sports,False,True
+ORD-101446,Fashion,False,True
+ORD-101832,Home & Kitchen,False,True
+ORD-101112,Fashion,False,True
+ORD-101360,Home & Kitchen,False,True
+ORD-101718,Sports,False,True
+ORD-100175,Beauty,False,True
+ORD-100470,Electronics,False,True
+ORD-100929,Electronics,False,True
+ORD-101137,Fashion,False,True
+ORD-100014,Home & Kitchen,False,True
+ORD-100048,Home & Kitchen,False,True
+ORD-100584,Fashion,False,True
+ORD-100681,Fashion,False,True
+ORD-101321,Fashion,False,True
+ORD-101573,Sports,False,True
+ORD-101077,Sports,False,True
+ORD-101709,Home & Kitchen,False,True
+ORD-101835,Home & Kitchen,False,True
+ORD-101931,Beauty,False,True
+ORD-100055,Beauty,False,True
+ORD-100839,Beauty,False,True
+ORD-101024,Sports,False,True
+ORD-100856,Sports,False,True
+ORD-100066,Home & Kitchen,False,True
+ORD-100109,Beauty,False,True
+ORD-100974,Electronics,True,True
+ORD-101670,Electronics,False,True
+ORD-101897,Home & Kitchen,False,True
+ORD-101862,Beauty,False,True
+ORD-100172,Fashion,False,True
+ORD-101025,Fashion,False,True
+ORD-101123,Fashion,False,True
+ORD-101295,Electronics,False,True
+ORD-101374,Beauty,False,True
+ORD-100349,Sports,False,True
+ORD-100112,Home & Kitchen,False,True
+ORD-100752,Fashion,False,True
+ORD-101211,Sports,False,True
+ORD-101686,Sports,False,True
+ORD-100216,Electronics,False,True
+ORD-100634,Home & Kitchen,False,True
+ORD-101680,Sports,False,True
+ORD-101810,Beauty,False,True
+ORD-100726,Beauty,False,True
+ORD-101152,Fashion,True,True
+ORD-101264,Fashion,False,True
+ORD-101413,Beauty,False,True
+ORD-100170,Home & Kitchen,False,True
+ORD-100905,Beauty,False,True
+ORD-101492,Fashion,False,True
+ORD-100135,Home & Kitchen,False,True
+ORD-100189,Home & Kitchen,False,True
+ORD-100266,Fashion,False,True
+ORD-100460,Fashion,False,True
+ORD-101955,Beauty,False,True
+ORD-100234,Fashion,False,True
+ORD-100402,Electronics,False,True
+ORD-100564,Beauty,False,True
+ORD-101178,Home & Kitchen,False,True
+ORD-100750,Beauty,False,True
+ORD-101622,Fashion,False,True
+ORD-100574,Electronics,False,True
+ORD-101701,Electronics,False,True
+ORD-100000,Electronics,False,True
+ORD-100742,Beauty,False,True
+ORD-101510,Sports,False,True
+ORD-100160,Electronics,False,True
+ORD-100725,Beauty,False,True
+ORD-101993,Fashion,False,True
+ORD-101705,Fashion,False,True
+ORD-101968,Electronics,False,True
+ORD-100844,Fashion,False,True
+ORD-101229,Electronics,False,True
+ORD-101595,Electronics,True,True
+ORD-101244,Sports,False,True
+ORD-101888,Sports,False,True
+ORD-100054,Electronics,False,True
+ORD-100753,Fashion,False,True
+ORD-101342,Beauty,False,True
+ORD-101938,Fashion,False,True
+ORD-100087,Beauty,True,True
+ORD-100094,Electronics,False,True
+ORD-101044,Electronics,False,True
+ORD-101550,Beauty,False,True
+ORD-101659,Electronics,False,True
+ORD-100137,Fashion,False,True
+ORD-100325,Sports,False,True
+ORD-100508,Sports,False,True
+ORD-100692,Beauty,False,True
+ORD-100787,Electronics,False,True
+ORD-100840,Beauty,False,True
+ORD-100627,Home & Kitchen,False,True
+ORD-101096,Beauty,False,True
+ORD-101498,Beauty,False,True
+ORD-101126,Electronics,False,True
+ORD-101760,Electronics,False,True
+ORD-100330,Sports,False,True
+ORD-101075,Fashion,False,True
+ORD-101302,Home & Kitchen,False,True
+ORD-101332,Beauty,False,True
+ORD-101644,Beauty,False,True
+ORD-100842,Beauty,False,True
+ORD-101764,Sports,False,True
+ORD-100744,Electronics,False,True
+ORD-100123,Home & Kitchen,False,True
+ORD-100630,Home & Kitchen,False,True
+ORD-101282,Electronics,False,True
+ORD-101990,Fashion,False,True
+ORD-100067,Sports,False,True
+ORD-100133,Home & Kitchen,False,True
+ORD-100537,Home & Kitchen,False,True
+ORD-100924,Sports,False,True
+ORD-100962,Fashion,False,True
+ORD-101279,Beauty,False,True
+ORD-101328,Sports,False,True
+ORD-101408,Home & Kitchen,False,True
+ORD-100110,Sports,False,True
+ORD-100201,Beauty,False,True
+ORD-101991,Beauty,False,True
+ORD-100482,Beauty,False,True
+ORD-101111,Fashion,False,True
+ORD-101890,Sports,False,True
+ORD-100035,Fashion,False,True
+ORD-100563,Sports,False,True
+ORD-101333,Electronics,False,True
+ORD-101688,Electronics,False,True
+ORD-101830,Home & Kitchen,False,True
+ORD-100085,Beauty,False,True
+ORD-100415,Fashion,False,True
+ORD-100579,Beauty,False,True
+ORD-101612,Home & Kitchen,False,True
+ORD-101683,Beauty,False,True
+ORD-101937,Electronics,True,True
+ORD-101087,Fashion,False,True
+ORD-101544,Beauty,False,True
+ORD-101871,Electronics,False,True
+ORD-100125,Home & Kitchen,False,True
+ORD-100565,Home & Kitchen,False,True
+ORD-100762,Home & Kitchen,False,True
+ORD-100598,Home & Kitchen,False,True
+ORD-101497,Home & Kitchen,False,True
+ORD-101343,Home & Kitchen,False,True
+ORD-101789,Electronics,False,True
+ORD-101940,Electronics,False,True
+ORD-100568,Sports,False,True
+ORD-101062,Home & Kitchen,False,True
+ORD-101704,Electronics,False,True
+ORD-101720,Sports,False,True
+ORD-100738,Sports,False,True
+ORD-101352,Electronics,False,True
+ORD-101808,Home & Kitchen,False,True
+ORD-100180,Fashion,False,True
+ORD-101396,Home & Kitchen,False,True
+ORD-101800,Sports,False,True
+ORD-100399,Sports,False,True
+ORD-101685,Fashion,False,True
+ORD-100767,Sports,False,True
+ORD-100785,Beauty,False,True
+ORD-101023,Beauty,False,True
+ORD-100423,Fashion,False,True
+ORD-100594,Fashion,False,True
+ORD-100843,Fashion,False,True
+ORD-101081,Beauty,False,True
+ORD-101559,Electronics,False,True
+ORD-101021,Beauty,False,True
+ORD-101208,Home & Kitchen,False,True
+ORD-100455,Beauty,True,True
+ORD-100892,Home & Kitchen,False,True
+ORD-101149,Beauty,False,True
+ORD-101223,Beauty,False,True
+ORD-100270,Beauty,False,True
+ORD-100475,Home & Kitchen,False,True
+ORD-100669,Beauty,False,True
+ORD-101927,Beauty,False,True
+ORD-100263,Fashion,False,True
+ORD-100712,Beauty,False,True
+ORD-100026,Sports,False,True
+ORD-101128,Fashion,False,True
+ORD-101199,Beauty,False,True
+ORD-101286,Electronics,False,True
+ORD-101752,Fashion,False,True
+ORD-101844,Home & Kitchen,False,True
+ORD-100310,Fashion,False,True
+ORD-100618,Fashion,False,True
+ORD-101624,Fashion,False,True
+ORD-100061,Home & Kitchen,False,True
+ORD-100194,Electronics,False,True
+ORD-101512,Home & Kitchen,True,True
+ORD-101625,Electronics,False,True
+ORD-100426,Sports,False,True
+ORD-100826,Beauty,False,True
+ORD-100885,Fashion,False,True
+ORD-101160,Sports,False,True
+ORD-101385,Home & Kitchen,False,True
+ORD-101453,Home & Kitchen,False,True
+ORD-101779,Home & Kitchen,False,True
+ORD-101867,Sports,False,True
+ORD-101962,Home & Kitchen,False,True
+ORD-100046,Sports,False,True
+ORD-100422,Beauty,False,True
+ORD-100605,Sports,False,True
+ORD-100614,Fashion,False,True
+ORD-101506,Sports,False,True
+ORD-101747,Sports,False,True
+ORD-101976,Sports,False,True
+ORD-100685,Electronics,False,True
+ORD-100729,Beauty,False,True
+ORD-100973,Fashion,False,True
+ORD-101359,Fashion,False,True
+ORD-101401,Beauty,False,True
+ORD-101713,Electronics,False,True
+ORD-101721,Home & Kitchen,False,True
+ORD-100078,Electronics,False,True
+ORD-100552,Fashion,False,True
+ORD-101272,Electronics,False,True
+ORD-101552,Electronics,False,True
+ORD-101694,Electronics,False,True
+ORD-100158,Home & Kitchen,False,True
+ORD-100784,Electronics,False,True
+ORD-101526,Beauty,False,True
+ORD-101700,Beauty,False,True
+ORD-100049,Sports,False,True
+ORD-100119,Electronics,False,True
+ORD-100255,Beauty,False,True
+ORD-100350,Fashion,False,True
+ORD-101225,Home & Kitchen,False,True
+ORD-101724,Home & Kitchen,False,True
+ORD-101831,Fashion,False,True
+ORD-100088,Sports,False,True
+ORD-100612,Beauty,False,True
+ORD-100800,Electronics,True,True
+ORD-101336,Electronics,False,True
+ORD-101375,Home & Kitchen,True,True
+ORD-101516,Fashion,False,True
+ORD-101689,Fashion,False,True
+ORD-100499,Beauty,False,True
+ORD-101304,Sports,False,True
+ORD-101630,Fashion,False,True
+ORD-101921,Sports,False,True
+ORD-101924,Sports,False,True
+ORD-100807,Beauty,False,True
+ORD-101072,Home & Kitchen,False,True
+ORD-101365,Fashion,False,True
+ORD-100210,Electronics,False,True
+ORD-100546,Sports,True,True
+ORD-101758,Fashion,False,True
+ORD-100118,Beauty,False,True
+ORD-100128,Electronics,False,True
+ORD-101751,Electronics,True,True
+ORD-100248,Fashion,False,True
+ORD-100673,Home & Kitchen,True,True
+ORD-101999,Fashion,True,True
+ORD-100900,Fashion,False,True
+ORD-101626,Home & Kitchen,False,True
+ORD-100450,Beauty,False,True
+ORD-100644,Fashion,True,True
+ORD-100660,Beauty,False,True
+ORD-100173,Electronics,False,True
+ORD-100328,Sports,False,True
+ORD-100925,Electronics,False,True
+ORD-101055,Fashion,True,True
+ORD-100786,Beauty,False,True
+ORD-101273,Sports,False,True
+ORD-101521,Electronics,False,True
+ORD-101978,Fashion,False,True
+ORD-100062,Beauty,False,True
+ORD-100493,Home & Kitchen,False,True
+ORD-100039,Home & Kitchen,False,True
+ORD-101986,Electronics,False,True
+ORD-100550,Electronics,False,True
+ORD-100944,Home & Kitchen,False,True
+ORD-101027,Fashion,False,True
+ORD-101468,Beauty,False,True
+ORD-101778,Home & Kitchen,False,True
+ORD-101806,Sports,False,True
+ORD-100691,Home & Kitchen,False,True
+ORD-100737,Home & Kitchen,False,True
+ORD-100980,Home & Kitchen,False,True
+ORD-101729,Beauty,False,True
+ORD-101812,Home & Kitchen,True,True
+ORD-101896,Sports,False,True
+ORD-100454,Home & Kitchen,False,True
+ORD-100791,Home & Kitchen,True,True
+ORD-100854,Sports,False,True
+ORD-100866,Fashion,False,True
+ORD-100898,Fashion,False,True
+ORD-101080,Electronics,False,True
+ORD-101794,Electronics,False,True
+ORD-101977,Home & Kitchen,False,True
+ORD-100045,Beauty,False,True
+ORD-100080,Fashion,False,True
+ORD-100369,Electronics,False,True
+ORD-100904,Beauty,False,True
+ORD-101258,Fashion,False,True
+ORD-101884,Electronics,False,True
+ORD-100171,Home & Kitchen,False,True
+ORD-101140,Electronics,False,True
+ORD-101196,Beauty,True,True
+ORD-101894,Home & Kitchen,False,True
+ORD-100662,Fashion,False,True
+ORD-101582,Fashion,False,True
+ORD-101635,Sports,False,True
+ORD-100238,Home & Kitchen,False,True
+ORD-100802,Fashion,False,True
+ORD-101623,Sports,False,True
+ORD-101757,Electronics,False,True
+ORD-100100,Fashion,False,True
+ORD-100278,Home & Kitchen,False,True
+ORD-100488,Fashion,False,True
+ORD-100848,Beauty,False,True
+ORD-101772,Beauty,False,True
+ORD-100427,Sports,False,True
+ORD-101159,Sports,False,True
+ORD-101251,Fashion,False,True
+ORD-101557,Electronics,False,True
+ORD-101710,Sports,False,True
+ORD-101946,Beauty,False,True
+ORD-101954,Electronics,False,True
+ORD-101141,Beauty,False,True
+ORD-101014,Home & Kitchen,False,True
+ORD-100403,Home & Kitchen,False,True
+ORD-101427,Home & Kitchen,False,True
+ORD-101802,Sports,False,True
+ORD-101952,Fashion,False,True
+ORD-100516,Sports,False,True
+ORD-100998,Beauty,False,True
+ORD-101241,Electronics,False,True
+ORD-101119,Beauty,False,True
+ORD-101615,Home & Kitchen,False,True
+ORD-100381,Home & Kitchen,False,True
+ORD-100434,Beauty,False,True
+ORD-100615,Sports,False,True
+ORD-100734,Sports,False,True
+ORD-101079,Beauty,False,True
+ORD-101767,Beauty,False,True
+ORD-100235,Fashion,True,True
+ORD-101528,Fashion,True,True
+ORD-101824,Home & Kitchen,False,True
+ORD-100804,Electronics,False,True
+ORD-101368,Fashion,False,True
+ORD-101378,Sports,False,True
+ORD-100290,Home & Kitchen,False,True
+ORD-100373,Sports,False,True
+ORD-100380,Electronics,False,True
+ORD-100468,Beauty,False,True
+ORD-100970,Electronics,False,True
+ORD-101373,Electronics,True,True
+ORD-100136,Home & Kitchen,False,True
+ORD-100199,Home & Kitchen,False,True
+ORD-101148,Home & Kitchen,False,True
+ORD-101502,Fashion,False,True
+ORD-101127,Home & Kitchen,False,True
+ORD-101129,Home & Kitchen,False,True
+ORD-100009,Electronics,False,True
+ORD-100267,Beauty,False,True
+ORD-100893,Sports,False,True
+ORD-100992,Electronics,False,True
+ORD-101314,Fashion,True,True
+ORD-101485,Sports,True,True
+ORD-100979,Electronics,False,True
+ORD-101134,Beauty,True,True
+ORD-101706,Beauty,False,True
+ORD-100376,Electronics,False,True
+ORD-100680,Sports,False,True
+ORD-100763,Home & Kitchen,False,True
+ORD-101613,Sports,False,True
+ORD-101774,Electronics,True,True
+ORD-101877,Fashion,False,True
+ORD-100084,Fashion,False,True
+ORD-100708,Sports,False,True
+ORD-100776,Home & Kitchen,False,True
+ORD-101415,Fashion,True,True
+ORD-100909,Sports,False,True
+ORD-101231,Beauty,False,True
+ORD-101578,Beauty,False,True
+ORD-100559,Beauty,False,True
+ORD-101243,Beauty,False,True
+ORD-101309,Home & Kitchen,False,True
+ORD-101839,Beauty,False,True
+ORD-100319,Fashion,False,True
+ORD-100416,Beauty,False,True
+ORD-101754,Fashion,False,True
+ORD-101798,Home & Kitchen,False,True
+ORD-100034,Fashion,False,True
+ORD-101905,Electronics,False,True
+ORD-101172,Fashion,False,True
+ORD-100156,Home & Kitchen,False,True
+ORD-100226,Fashion,False,True
+ORD-100276,Sports,False,True
+ORD-100477,Fashion,False,True
+ORD-101904,Sports,False,True
+ORD-100036,Sports,True,True
+ORD-100163,Fashion,False,True
+ORD-100822,Home & Kitchen,False,True
+ORD-101289,Fashion,False,True
+ORD-101853,Electronics,False,True
+ORD-101980,Electronics,False,True
+ORD-100578,Home & Kitchen,False,True
+ORD-101459,Beauty,False,True
+ORD-100251,Electronics,False,True
+ORD-100327,Sports,False,True
+ORD-100459,Electronics,False,True
+ORD-100888,Home & Kitchen,False,True
+ORD-100934,Fashion,False,True
+ORD-101542,Home & Kitchen,False,True
+ORD-101679,Home & Kitchen,False,True
+ORD-101783,Sports,False,True
+ORD-100098,Fashion,False,True
+ORD-100894,Home & Kitchen,False,True
+ORD-100907,Sports,False,True
+ORD-100976,Electronics,False,True
+ORD-100164,Home & Kitchen,False,True
+ORD-100868,Fashion,True,True
+ORD-100930,Home & Kitchen,False,True
+ORD-101163,Electronics,False,True
+ORD-101261,Electronics,False,True
+ORD-100116,Sports,False,True
+ORD-100806,Sports,False,True
+ORD-100386,Fashion,False,True
+ORD-100723,Sports,True,True
+ORD-100788,Fashion,False,True
+ORD-101698,Fashion,False,True
+ORD-100114,Sports,False,True
+ORD-100580,Beauty,False,True
+ORD-100773,Fashion,False,True
+ORD-100775,Electronics,False,True
+ORD-100811,Electronics,False,True
+ORD-101350,Fashion,False,True
+ORD-101605,Fashion,False,True
+ORD-101607,Home & Kitchen,False,True
+ORD-101628,Beauty,False,True
+ORD-100572,Sports,False,True
+ORD-100703,Sports,False,True
+ORD-101418,Fashion,False,True
+ORD-101541,Sports,False,True
+ORD-100165,Sports,False,True
+ORD-100442,Sports,False,True
+ORD-101902,Sports,False,True
+ORD-100086,Home & Kitchen,False,True
+ORD-100272,Sports,False,True
+ORD-100301,Fashion,False,True
+ORD-100852,Sports,False,True
+ORD-100971,Fashion,False,True
+ORD-101205,Home & Kitchen,False,True
+ORD-101866,Electronics,False,True
+ORD-101942,Sports,False,True
+ORD-100428,Electronics,False,True
+ORD-100474,Beauty,False,True
+ORD-100494,Electronics,False,True
+ORD-101252,Sports,False,True
+ORD-101496,Sports,False,True
+ORD-101733,Electronics,False,True
+ORD-100418,Electronics,False,True
+ORD-100441,Fashion,False,True
+ORD-100650,Sports,False,True
+ORD-100294,Fashion,False,True
+ORD-100923,Fashion,False,True
+ORD-101513,Beauty,False,True

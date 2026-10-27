@@ -1,0 +1,4 @@
+month,forecast_revenue,model
+2025-07,1574698.9300000002,seasonal_naive
+2025-08,2401676.2299999995,seasonal_naive
+2025-09,1647274.5499999998,seasonal_naive

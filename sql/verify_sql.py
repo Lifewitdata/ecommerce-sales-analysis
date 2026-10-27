@@ -39,7 +39,7 @@ def check(name, actual, expected, tol=None):
     if tol is None:
         good = actual == expected
     else:
-        good = actual is not None and abs(actual - expected) <= tol * max(1.0, abs(expected))
+        good = actual is not None and abs(float(actual) - expected) <= tol * max(1.0, abs(expected))
     print(("PASS " if good else "FAIL ") + f"{name}: sql={actual} expected={expected}")
     ok = ok and good
 
@@ -230,6 +230,15 @@ check("Q10 profit", q10[2], -248884.50, tol=0.001)
 check("Q10 margin_pct", q10[3], -8.58, tol=0.001)
 check("Q10 loss_making_orders", q10[4], 63)
 check("Q10 avg_discount_pct", q10[5], 29.05, tol=0.001)
+
+q10b = run("Q10B", "fixed-volume 15% cap")[0]
+check("Q10b orders", q10b[0], 195)
+for index, name, expected in [(1, "original_sales", 2899323.45),
+                              (2, "original_profit", -248884.50),
+                              (3, "capped_sales", 3475106.40),
+                              (4, "capped_profit", 326898.45),
+                              (5, "profit_difference", 575782.95)]:
+    check(f"Q10b {name}", q10b[index], expected, tol=1e-10)
 
 # ======================================================== Q11 H1 vs H1 YoY
 q11 = run("Q11", "H1 like-for-like")

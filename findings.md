@@ -1,122 +1,140 @@
-# E-commerce sales — findings and recommendations
+# E-commerce sales findings and test plan
 
-Two years of order data: **2,000 orders, 573 customers, ₹3.59 Cr revenue, ₹51.8 lakh
-profit, 14.43% overall margin** (Jan 2024 – Jun 2025). Every number below is
-reproducible — the notebook computes it in pandas and `sql/analysis_queries.sql`
-computes the same thing in MySQL; `python sql/verify_sql.py` asserts the two agree
-(127 checks).
+All 2,000 orders are **synthetic**. Values below are reproducible demonstrations of analysis methods, not claims about a real retailer. Returns and funnel events are additional simulations and are kept separate from the 13-column financial source.
 
----
+## 1. Baseline
 
-## 1. The business is scaling its thinnest slice
+| Metric | Result |
+|---|---:|
+| Customers | 573 |
+| Revenue | ₹3,59,28,968.57 |
+| Recorded profit / margin | ₹51,82,911.58 / 14.43% |
+| H1 2025 revenue vs H1 2024 | −18.41% |
+| Revenue-only top 57 customer share | 41.18% |
 
-| Category | Revenue share | Profit share | Margin |
-|---|---|---|---|
-| Electronics | **71.74%** | 44.39% | **8.93%** |
-| Home & Kitchen | 10.95% | 18.10% | 23.83% |
-| Sports | 10.75% | 21.04% | 28.22% |
-| Fashion | 4.22% | 9.06% | 30.95% |
-| Beauty | **2.33%** | 7.41% | **45.89%** |
+Electronics generates 71.74% of revenue but 44.39% of profit at an 8.93% blended margin. Beauty's blended margin is 45.89%, but that category-level difference does **not** show that shifting a rupee of demand between categories would preserve volume or margin.
 
-Electronics brings in seven rupees of every ten but less than half of every rupee of
-profit. Beauty earns 45.89% on 2.33% of revenue — it is the cheapest growth available
-and it is under-marketed. Every rupee of revenue shifted from Electronics to Beauty is
-worth ~37 paise of extra profit at these margins.
+## 2. Discount cap scenario: correct profit difference
 
-**Recommendation:** set category-level growth targets in *profit*, not GMV. Any
-Electronics spend should be justified against its 8.93% margin, not its topline.
+Q10 identifies the 195 orders discounted above 20%: ₹28,99,323.45 revenue and **−₹2,48,884.50 profit**.
 
-## 2. Discounts past 20% are a subsidy, not a promotion
+For those same 195 orders only, the notebook and SQL Q10b set the discount to 15%, keep quantity and implied cost (`sales − profit`) fixed, and round each repriced order to cents:
 
-| Discount | Orders | Avg margin | Total profit | Loss-making orders |
-|---|---|---|---|---|
-| 0% | 605 | 36.88% | ₹28.6 lakh | 0 |
-| 1–10% | 790 | 29.38% | ₹22.7 lakh | 0 |
-| 11–20% | 410 | 18.04% | ₹3.0 lakh | 51 |
-| 21–30% | 162 | 6.37% | **−₹1.39 lakh** | 36 |
-| 30%+ | 33 | **−10.22%** | **−₹1.10 lakh** | 27 |
+| Scenario | Sales | Profit |
+|---|---:|---:|
+| Recorded discounts above 20% | ₹28,99,323.45 | −₹2,48,884.50 |
+| Same orders at a 15% cap | ₹34,75,106.40 | ₹3,26,898.45 |
+| Difference | **+₹5,75,782.95** | **+₹5,75,782.95** |
 
-Margin falls monotonically from 36.88% to −10.22% as the discount rises, and the
-crossing point is ~20%, not 30%. Orders discounted above 20% are **195 orders,
-₹28.99 lakh of revenue and −₹2.49 lakh of profit** — a −8.58% blended margin, with 63
-orders sold below cost.
+The profit difference is **₹5,75,782.95**, not ₹2.49 lakh. The latter is only the removal of the current loss, while repricing also creates positive margin. This is fixed-volume accounting, not realized uplift: customer response, competitors, inventory, returns and campaign exposure are not modeled. It excludes discounts of 15–20%, so it is not a simulation of a full blanket cap.
 
-**Recommendation:** hard-cap blanket discounting at 15% and move the deeper offers to
-targeted, margin-aware promotions. Removing the below-cost discounting alone is worth
-~₹2.5 lakh of profit, before allowing for any demand response.
+## 3. RFM target
 
-## 3. The deep-discount loss is concentrated in one category
+RFM uses a 1 July 2025 snapshot, days since last purchase, distinct order count and recorded revenue. Equal metric values receive equal 1–5 percentile tiers. The top 57 customers are selected by total RFM tier, then monetary value and customer ID.
 
-| Category | Avg discount | Deep-discounted orders | Profit on those orders |
-|---|---|---|---|
-| Electronics | 8.78% | 38 | **−₹2.97 lakh** |
-| Home & Kitchen | 8.88% | 42 | +₹0.05 lakh |
-| Sports | 9.35% | 37 | +₹0.15 lakh |
-| Beauty | 8.58% | 31 | +₹0.11 lakh |
-| Fashion | 10.34% | 47 | +₹0.17 lakh |
+- RFM audience: **57 customers** (floor of 10%).
+- Historical revenue share: **26.79%**.
+- Recent customers receive VIP access/no blanket discount; older customers receive capped reminder or win-back tests.
 
-Electronics deep-discounts the *least often* (9.09% of its orders) yet accounts for
-**more than the entire company's deep-discount loss** (−₹2.97 lakh vs −₹2.49 lakh
-net), because at an 8.93% base margin any discount beyond ~20% is already below cost.
-Fashion and Home & Kitchen discount deeper and still stay positive — their base margin
-absorbs it.
+The revenue-only top 57 share remains 41.18%; it is a different ranking. Historical targeting does not prove incremental retention.
 
-**Recommendation:** make the discount cap category-aware. A flat "max 20%" rule is
-already too loose for Electronics and needlessly tight for Beauty.
+## 4. Category price response
 
-## 4. Growth is a seasonal artefact — H1 revenue is actually shrinking
+Weekly log-unit models use a normalized net-price proxy (`1 − quantity-weighted discount`), time and annual sine/cosine terms, with HAC(4) confidence intervals. A +10 percentage-point discount is associated with:
 
-The monthly trend chart peaks at 2024-11 (₹33.2 lakh), which reads as momentum. It
-isn't. Comparing like-for-like first halves:
+| Category | Price elasticity estimate (95% CI) | Associated unit-demand change (95% CI) |
+|---|---:|---:|
+| Beauty | 1.93 (−1.00, 4.86) | −20.12% (−43.19%, 12.32%) |
+| Electronics | 2.72 (0.56, 4.87) | −27.15% (−43.33%, −6.35%) |
+| Fashion | 1.14 (−1.58, 3.85) | −12.63% (−36.69%, 20.56%) |
+| Home & Kitchen | −2.48 (−5.59, 0.62) | +33.34% (−6.88%, 90.94%) |
+| Sports | 0.51 (−1.36, 2.39) | −5.84% (−24.37%, 17.24%) |
 
-| Period | Orders | Revenue | Margin | AOV |
-|---|---|---|---|---|
-| H1 2024 | 626 | ₹1.20 Cr | 13.85% | ₹19,140 |
-| H1 2025 | 593 | ₹0.98 Cr | **15.47%** | ₹16,485 |
+Most intervals include zero; positive elasticity estimates are economically counterintuitive and signal confounding/product-mix problems rather than a reason to believe discounts reduce demand. Purchase discounts omit non-buyers, offer exposure, inventory and competitors. These are observational associations, **not causal elasticities**.
 
-**H1-over-H1 revenue is down 18.41%** and AOV fell 13.9%, while margin improved 1.62pp.
-The company is shrinking and getting healthier simultaneously — which is exactly what
-you'd expect if volume was being bought with discount depth. The 2024 festive peak is a
-season, not a trend, and any target built off it will miss.
+## 5. Sale-week proxies and cannibalization
 
-**Recommendation:** report H1-vs-H1 and rolling-12-month, never the raw monthly line,
-in any growth conversation.
+With no campaign calendar, a sale-week proxy means at least 15% of recorded orders were discounted above 20%. Controlling for trend and annual terms, full-price units were:
 
-## 5. A loyal top decile carries 41% of revenue
+| Term | Coefficient in full-price units (95% CI) | p-value |
+|---|---:|---:|
+| Sale week | −3.39 (−5.64, −1.14) | 0.003 |
+| Week after a sale | +1.59 (−1.57, 4.75) | 0.324 |
+| Week before a sale | −0.12 (−2.75, 2.51) | 0.928 |
 
-- **88.48%** of customers (507 of 573) order more than once; the heaviest order 10 times.
-- The **top 57 customers (10%) generate 41.18% of revenue** — ₹1.48 Cr.
-- UPI takes 43.25% of orders; Net Banking is only 7.60% of orders but has the highest AOV
-  (₹21,538). Cash on Delivery is just 7.50% of orders.
+There is same-week substitution away from full-price units in this synthetic sample. There is **no statistically clear pre-sale waiting or post-sale dip**, so pull-forward cannibalization is not established. Sale classification is derived from purchases rather than scheduled offers and may capture mix or seasonal effects.
 
-**Recommendation:** retention budget belongs on the top decile, and the COD share is low
-enough that payment-cost savings won't fund the discount cap — margin discipline has to.
+## 6. Funnel and returns are simulated
 
-## 6. Where margin is best and worst, cell by cell
+The original 13 columns contain no return, rating, cancellation, delivery or session data. The notebook therefore creates clearly marked companion data with seed 20251027:
 
-The category × region heatmap has 20 cells spanning **45.34% (Beauty/North) down to
-6.72% (Electronics/West)**. The problem cell is not small: Electronics/West still books
-₹49.1 lakh of revenue at 6.72%. Region alone explains little — South leads revenue
-(₹1.04 Cr, AOV ₹19,127) but East runs the better margin (15.29% vs 14.73%), and North
-has the most orders (571) at the weakest margin (13.51%).
+- 138 simulated returns among 2,000 orders, based on explicit category probability assumptions. Original profit is not adjusted.
+- 10,000 simulated browsing sessions: 3,308 carts, 2,133 checkout starts and 1,512 purchases. Rates are 33.08% browse→cart, 64.48% cart→checkout, and 70.89% checkout→purchase.
 
-**Recommendation:** the mix, not the map, is the lever. West is not a "bad region";
-West is where Electronics is over-weighted.
+These are workflow demonstrations, not observed KPIs or external benchmarks.
 
----
+## 7. Forecast holdout
 
-## What I'd do next
+Models train on Jan–Dec 2024 and are evaluated once on Jan–Jun 2025:
 
-1. **Price elasticity per category** — so a discount is priced against its own margin
-   instead of applied site-wide.
-2. **RFM segmentation** on the 573 customers to operationalise finding #5.
-3. **Promo cannibalisation** — measure whether sale weeks steal from full-price weeks
-   before funding the next one.
-4. **Hypothesis test the 15% cap** as an A/B experiment rather than rolling it out
-   company-wide on the strength of an observational slope.
+| Model | MAE | RMSE | WAPE |
+|---|---:|---:|---:|
+| Seasonal naive | ₹5,34,179.77 | ₹6,83,855.08 | **32.79%** |
+| Last-month naive | ₹13,12,752.44 | ₹13,22,605.32 | 80.57% |
+| Log trend + annual seasonality | ₹42,98,229.23 | ₹43,64,557.23 | 263.82% |
 
----
+Seasonal naive wins but 32.79% WAPE is weak. Only one training year and six holdout months are available; no calibrated prediction interval is claimed. The Jul–Sep 2025 forecast is provisional, and selecting the model on the same holdout makes its reported score optimistic for future use.
 
-*Synthetic dataset (`ecommerce_sales.csv`, 2,000 orders × 13 columns) built to behave
-like real retail data — seasonal demand, category margin structure, discount response.
-The pipeline and every query work unchanged against live order data.*
+## 8. Cohorts and customer value
+
+Monthly cohort retention uses each customer's first **observed** order. Age zero is 100%; observed inactivity is zero and future/unobservable cohort ages are blank. Purchases before January 2024 are unknown.
+
+Mature cohorts with 12 observable months contain 436 customers. Their finite 12-month averages are:
+
+- Revenue CLV proxy: **₹57,481.95 per original cohort customer**.
+- Gross-profit-like CLV proxy: **₹8,438.82**.
+- Historical revenue/customer across the full sample: ₹62,703.26 (different exposure windows, not a fair 12-month comparison).
+
+This is not full lifetime value. It excludes acquisition cost, operating expenses, refunds and discounting and assumes earlier cohorts are informative for newer ones.
+
+## 9. Discount–margin significance
+
+Order margin is regressed on discount with product, region and calendar-month fixed effects and customer-clustered standard errors. A +10pp discount is associated with **−11.46 margin percentage points** (95% CI −11.57 to −11.34; p < 0.001).
+
+The relationship is statistically precise because margin's denominator already includes discounted sales and the synthetic generator embeds discount behavior. It is not a causal policy estimate and does not replace the experiment.
+
+## 10. A/B test for the 15% blanket cap
+
+**Population and assignment.** Registered promotion-eligible customers; persistent 1:1 customer-level randomization, stratified by prior spend tier and region. Hold catalog, campaign exposure and shipping constant. Do not analyze only purchasers.
+
+**Control.** Current discount policy. **Treatment.** Blanket offers capped at 15%. This tests the full policy, not only the 195-order scenario.
+
+**Primary metric.** Intention-to-treat realized contribution profit per assigned customer over 28 days, including zero for non-buyers and refund/variable fulfillment costs. Wait 14 additional days for returns. Success requires a positive treatment-minus-control difference with a two-sided 95% CI excluding zero. Report revenue and conversion separately and investigate refund/complaint deterioration before rollout.
+
+**Sample size.** Two-sided α=0.05, 80% power, 10% relative minimum detectable improvement. The synthetic trailing 28-day profit/customer proxy has mean ₹476.30 and SD ₹2,439.31. Normal approximation gives 41,173 customers/arm; after 10% instrumentation allowance: **45,748 per arm, 91,496 total**.
+
+This synthetic variance proxy is unstable and heavy-tailed. Re-estimate variance in a live instrumentation pilot; use a customer bootstrap sensitivity check. The current 573-customer dataset is underpowered. One final read only—no optional stopping.
+
+## 11. Native Excel verification
+
+`Pivot_Category` is now a real Excel PivotTable over `Orders_Clean`, with category rows, region columns, SUM sales, SUM profit and COUNT order ID. Native Region and Category slicers were tested across four regions, five categories and all 20 intersections after save/reopen. Clearing restores ₹3,59,28,968.57 sales, ₹51,82,911.58 profit and 2,000 orders; all eight quality checks pass.
+
+The two slicers filter the pivot, not the formula-based KPI sheets. `excel/build_native_pivot.py` rebuilds and validates it on Windows with Excel.
+
+## 12. Published retail margin context
+
+Aswath Damodaran's NYU Stern **Margins by Sector (US)** dataset, updated January 2026, reports:
+
+| Sector | Firms | Gross margin | Net margin |
+|---|---:|---:|---:|
+| Retail (General) | 23 | 33.18% | 5.61% |
+| Retail (Grocery and Food) | 15 | 26.31% | 1.32% |
+| Retail (Special Lines) | 94 | 35.30% | 5.19% |
+
+Source: [NYU Stern — Margins by Sector (US), January 2026](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html), accessed 27 October 2026.
+
+The project's `(sales − implied cost) / sales` is gross-margin-like **only if** implied cost corresponds to cost of goods sold. It may omit freight/fulfillment included in reported cost of sales and definitely omits operating expense, interest and tax, so the project's 14.43% must **not** be compared with the benchmark net margins. The source has no e-commerce-only sector; these are US company-level, not order-level, benchmarks. Therefore this comparison is context, not a performance verdict.
+
+## Decision
+
+Do not roll the 15% cap out from the fixed-volume scenario alone. Instrument exposure and returns, run the customer-randomized test, and use contribution profit/customer as the decision metric. Use the RFM list for eligibility/stratification, not as evidence that the offers work.

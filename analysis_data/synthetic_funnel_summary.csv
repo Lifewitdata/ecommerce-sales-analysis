@@ -1,0 +1,5 @@
+stage,sessions,conversion_from_previous,conversion_from_browse,dropoff_from_previous
+browsed,10000,,1.0,
+added_to_cart,3308,0.3308,0.3308,6692.0
+checkout_started,2133,0.6448004836759371,0.2133,1175.0
+purchased,1512,0.7088607594936709,0.1512,621.0
